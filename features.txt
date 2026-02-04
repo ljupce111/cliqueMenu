@@ -1,0 +1,15 @@
+stage 1 - {
+-have a view button on all items that when clicked it opens the item on (almost) the whole screen and has details about that item there
+-build the app keeping in mind the multilanguage feature(for stage 2)
+-footer(or something similar) with socials of clique(instagram, facebook, the ordering app they have), and my online signature
+-view all option(when the web is opened there will be chategories like burgers, meals, pasta etc etc,
+ there will also be a view all option where every item is displayed in order)
+-
+}
+
+stage 2 - {
+-find a meal feature(user selects what they want in their meal 
+	-what kind of meat
+	-vegan food)
+-change language feature(macedonian, greek, english, serbian)
+}	
