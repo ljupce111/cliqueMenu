@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clique menu</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="sticky-container">
+        <header>
+        <h2 id="leftSide">CLIQUE</h2>
+        <h2 id="rightSide">Premium Food Bar</h2>
+    </header>
+    <div class="nav">
+        <div id="categories"></div>
+        <div id="food-filters"></div>
+    </div>
+    </div>
+
+
+    <main id="menu"></main>
+
+    <div id="item-modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="modal-close" class="modal-close">&times;</span>
+            <img id="modal-img" src="" alt="" class="modal-img">
+            <h2 id="modal-name"></h2>
+            <p id="modal-description"></p>
+            <p id="modal-ingredients"></p>
+            <p id="modal-price"></p>
+        </div>
+        <div id="modal-dietary" class="modal-dietary"></div>
+    </div>
+
+    <footer id="site-footer">
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/clique" target="_blank">
+                <img src="/assets/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/clique" target="_blank">
+                <img src="/assets/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://orderingapp.com/clique" target="_blank">
+                <img src="/assets/bag.png" alt="Ordering App">
+            </a>
+        </div>
+        <div class="footer-text">
+            <p>&copy; 2026 Clique | Premium Food Bar </p>
+            <p> Developed by Ljupce Dimov. All Rights Reserved. </p>
+
+        </div>
+    </footer>
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,345 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  font-family: "Oswald", ui-sans-serif, system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #525151;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(53, 90, 55);
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+#rightSide{
+  font-size: 1.5rem;
+  color: #cecece;
+}
+
+main{
+  flex:1;
+}
+.nav{
+  border-bottom: 1px solid rgba(182, 181, 181, 0.1);
+}
+.sticky-container{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+#site-footer {
+  font-family: ui-sans-serif;
+  background-color: #0e0e0e;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  font-size: 14px;
+  flex-shrink: 0;
+  height: 200px;
+  border-top: 5px solid rgba(53, 90, 55, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#site-footer .footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+#site-footer .footer-icons a img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s;
+}
+
+#site-footer .footer-icons a img:hover {
+  transform: scale(1.1);
+}
+
+#site-footer .footer-text {
+  font-size: 12px;
+  color: #cccccc;
+}
+.footer-icons a{
+  background-color: #2b2b2b;
+  padding: 0.7rem;
+  border-radius: 20rem;
+  display: flex;
+  justify-content: center;
+}
+.footer-icons a:hover{
+  transition: transform 0.2s;
+  transform: scale(1.2);
+}
+.footer-icons img{
+  filter: invert(70%);
+}
+
+
+
+#categories {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: rgba(24, 24, 24, 0.99);
+  overflow-x: auto;
+}
+#categories::-webkit-scrollbar {
+  display: none;
+}
+
+#categories {
+  scrollbar-width: none; /* Firefox */
+}
+
+.category-btn {
+  padding: 13px 25px;
+  border: none;
+  background-color: #272727;
+  color: #aaa9a9;
+  cursor: pointer;
+  border-radius: 30px;
+  white-space: nowrap;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.category-btn.active {
+  background-color: #F85618;
+  color: #fff;
+}
+
+/* Menu layout */
+#menu {
+  padding: 20px 130px;
+  background-color: #1b1b1b;
+}
+
+/* Category title */
+.category-heading {
+  width: 100%;
+  margin: 20px 0 10px;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+/* Cards container */
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+.category-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 30px 0 15px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* the line */
+.category-heading::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background-color: rgba(53, 90, 55, 0.6);
+}
+
+
+/* Menu card */
+.menu-card {
+  width: 260px;
+  background-color: #292929;
+  border-radius: 1rem;
+  padding-bottom: 15px;
+  border: 1px solid rgba(90, 90, 90, 0.4);
+}
+.menu-card-info{
+  text-align: left;
+  padding: 0 20px;
+}
+
+.menu-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.menu-card-image{
+  position: relative;
+}
+
+.menu-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+}
+.menu-card h4{
+  font-weight:100;
+  color: #aaa9a9;
+  font-size: .8rem;
+  margin-top: 0;
+}
+.menu-card-price-dietary{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-mkd{
+  color: #F85618;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.price-eur{
+  font-size: .7rem;
+  color: #aaa9a9;
+  font-weight: lighter;
+}
+.menu-card-dietary-overlay{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  z-index: 2;
+}
+.menu-card.unavailable {
+  opacity: 0.4;
+  pointer-events: none;
+}
+.tag {
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: 600;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Accent borders instead of solid fill */
+.tag.vegan { border-color: #2e7d32; }
+.tag.vegetarian { border-color: #558b2f; }
+.tag.chicken { border-color: #f57c00; }
+.tag.beef { border-color: #8d2e2e; }
+.tag.pork { border-color: #6d4c41; }
+/* View button */
+.view-btn {
+  padding: 0 .6rem;
+  border: none;
+  background-color: #3a3a3a;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5rem;
+}
+
+.view-btn:hover {
+  opacity: 0.9;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background-color: #fff;
+  color: #000;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.modal-img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#food-filters {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: rgba(24, 24, 24, 0.99);
+  overflow-x: auto;
+}
+
+/* Filter buttons */
+.food-filter-btn {
+  padding: 12px 25px;
+  border: 1px solid rgba(182, 181, 181, 0.3);
+  background-color: #1b1b1b;
+  color: #aaa9a9;
+  cursor: pointer;
+  border-radius: 30px;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* Hover */
+.food-filter-btn:hover {
+  background-color: #355A37;
+}
+
+/* Active filter */
+.food-filter-btn.active {
+  background-color: #F85618;
+  color: #fff;
+}
