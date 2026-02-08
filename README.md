@@ -3,9 +3,9 @@
 ## Completed
 - [x] Fix cards UI
 - [x] Change the JS for the item modal (update for dietary info)
+- [x] Fix modal UI
 
 ## Quick / Easy
-- [ ] Fix modal UI
 - [ ] Put the correct links in the social icons
 - [ ] Remove either the vegan or the vegetarian filter (no need for both)
 - [ ] Add hover effects on cards/buttons
@@ -26,3 +26,4 @@
 - [ ] Store menu items in JSON files (either in the project folder or hosted externally)
 - [ ] Build an admin panel for managing menu items
 - [ ] Add multi-language support
+
