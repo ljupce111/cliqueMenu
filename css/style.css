@@ -11,6 +11,8 @@
   font-weight: 700;
   font-style: normal;
 }
+
+
 body {
   font-family: "Oswald", ui-sans-serif, system-ui, sans-serif;
   margin: 0;
@@ -21,7 +23,8 @@ body {
   display: flex;
   flex-direction: column;
 }
-header{
+
+header {
   padding-left: 100px;
   padding-right: 100px;
   background-color: rgb(53, 90, 55);
@@ -32,22 +35,26 @@ header{
   align-items: center;
   font-size: 2rem;
 }
-#rightSide{
+
+#rightSide {
   font-size: 1.5rem;
   color: #cecece;
 }
 
-main{
-  flex:1;
+main {
+  flex: 1;
 }
-.nav{
+
+.nav {
   border-bottom: 1px solid rgba(182, 181, 181, 0.1);
 }
-.sticky-container{
+
+.sticky-container {
   position: sticky;
   top: 0;
   z-index: 1000;
 }
+
 #site-footer {
   font-family: ui-sans-serif;
   background-color: #0e0e0e;
@@ -62,6 +69,7 @@ main{
   flex-direction: column;
   justify-content: center;
 }
+
 #site-footer .footer-icons {
   display: flex;
   justify-content: center;
@@ -83,18 +91,21 @@ main{
   font-size: 12px;
   color: #cccccc;
 }
-.footer-icons a{
+
+.footer-icons a {
   background-color: #2b2b2b;
   padding: 0.7rem;
   border-radius: 20rem;
   display: flex;
   justify-content: center;
 }
-.footer-icons a:hover{
+
+.footer-icons a:hover {
   transition: transform 0.2s;
   transform: scale(1.2);
 }
-.footer-icons img{
+
+.footer-icons img {
   filter: invert(70%);
 }
 
@@ -107,12 +118,14 @@ main{
   background-color: rgba(24, 24, 24, 0.99);
   overflow-x: auto;
 }
+
 #categories::-webkit-scrollbar {
   display: none;
 }
 
 #categories {
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 .category-btn {
@@ -154,6 +167,7 @@ main{
   justify-content: flex-start;
   margin-bottom: 30px;
 }
+
 .category-heading {
   display: flex;
   align-items: center;
@@ -180,7 +194,16 @@ main{
   padding-bottom: 15px;
   border: 1px solid rgba(90, 90, 90, 0.4);
 }
-.menu-card-info{
+
+.menu-card :hover {
+  cursor: pointer;
+}
+.menu-card hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.menu-card-info {
   text-align: left;
   padding: 0 20px;
 }
@@ -192,7 +215,8 @@ main{
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
-.menu-card-image{
+
+.menu-card-image {
   position: relative;
 }
 
@@ -200,13 +224,15 @@ main{
   margin: 10px 0 5px;
   font-size: 1.1rem;
 }
-.menu-card h4{
-  font-weight:100;
+
+.menu-card h4 {
+  font-weight: 100;
   color: #aaa9a9;
   font-size: .8rem;
   margin-top: 0;
 }
-.menu-card-price-dietary{
+
+.menu-card-price-dietary {
   padding-left: 20px;
   padding-right: 20px;
   display: flex;
@@ -214,17 +240,25 @@ main{
   justify-content: space-between;
   align-items: center;
 }
-.price-mkd{
+.no-items-msg {
+  font-size: 1.2rem;
+  color: #aaa9a9;
+  text-align: center;
+}
+
+.price-mkd {
   color: #F85618;
   font-weight: bolder;
   font-size: 1.3rem;
 }
-.price-eur{
+
+.price-eur {
   font-size: .7rem;
   color: #aaa9a9;
   font-weight: lighter;
 }
-.menu-card-dietary-overlay{
+
+.menu-card-dietary-overlay {
   position: absolute;
   top: 8px;
   left: 8px;
@@ -233,10 +267,12 @@ main{
   flex-wrap: wrap;
   z-index: 2;
 }
+
 .menu-card.unavailable {
   opacity: 0.4;
   pointer-events: none;
 }
+
 .tag {
   background: rgba(0, 0, 0, 0.35);
   color: white;
@@ -250,11 +286,26 @@ main{
 }
 
 /* Accent borders instead of solid fill */
-.tag.vegan { border-color: #2e7d32; }
-.tag.vegetarian { border-color: #558b2f; }
-.tag.chicken { border-color: #f57c00; }
-.tag.beef { border-color: #8d2e2e; }
-.tag.pork { border-color: #6d4c41; }
+.tag.vegan {
+  border-color: #2e7d32;
+}
+
+.tag.vegetarian {
+  border-color: #558b2f;
+}
+
+.tag.chicken {
+  border-color: #f57c00;
+}
+
+.tag.beef {
+  border-color: #8d2e2e;
+}
+
+.tag.pork {
+  border-color: #6d4c41;
+}
+
 /* View button */
 .view-btn {
   padding: 0 .6rem;
@@ -273,12 +324,18 @@ main{
 /* Modal */
 .modal {
   position: fixed;
-  inset: 0;
-  background-color: rgba(0,0,0,0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.4);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   z-index: 1000;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .modal.hidden {
@@ -288,12 +345,17 @@ main{
 .modal-content {
   background-color: #fff;
   color: #000;
-  width: 90%;
   max-width: 500px;
-  padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   position: relative;
   text-align: center;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow-y: auto;
 }
 
 .modal-img {
@@ -302,23 +364,115 @@ main{
   object-fit: cover;
   border-radius: 6px;
   margin-bottom: 15px;
+  padding: 0;
+  margin: 0;
 }
 
-.modal-close {
+#modal-close {
   position: absolute;
   top: 10px;
-  right: 15px;
-  font-size: 24px;
+  right: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
   cursor: pointer;
+  z-index: 10;
+  /* make sure it’s above the image and price */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* optional circle or glassy bg */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
 }
 
-#food-filters {
-  display: flex;
-  gap: 10px;
-  padding: 10px 20px;
-  background-color: rgba(24, 24, 24, 0.99);
-  overflow-x: auto;
+.modal-close:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  /* subtle grow on hover */
 }
+
+.image-price {
+  position: relative;
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
+}
+
+#modal-price {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(248, 86, 24, 0.8);
+  border: 2px solid rgb(248, 86, 24);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0px 20px;
+  position: relative;
+  padding: 10px 20px;
+  direction: ltr;
+  /* Left-to-right text direction */
+  text-align: left;
+}
+
+#price-eur {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1rem;
+  color: #aaa9a9;
+  font-weight: bold;
+}
+
+.item-info h2,
+.item-info p {
+  margin: 10px;
+}
+
+#ingredients-title,
+#dietary-info-title {
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #bebebe;
+}
+
+#modal-ingredients,
+#dietary-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#modal-description {
+  color: #757575;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+}
+
+#modal-ingredients p,
+#dietary-info p {
+  color: #3f3f3f;
+  border: 1px solid rgb(182, 182, 182);
+  background-color: #e9e6e6;
+  padding: 4px 15px;
+  margin: 3px 5px;
+  border-radius: 5px;
+}
+
 
 /* Filter buttons */
 .food-filter-btn {
@@ -333,6 +487,14 @@ main{
   font-weight: bold;
 }
 
+#food-filters {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: rgba(24, 24, 24, 0.99);
+  overflow-x: auto;
+}
+
 /* Hover */
 .food-filter-btn:hover {
   background-color: #355A37;
@@ -342,4 +504,32 @@ main{
 .food-filter-btn.active {
   background-color: #F85618;
   color: #fff;
+}
+
+.phone-sticky {
+  position: fixed;
+  /* default mobile position */
+  bottom: 20px;
+  right: 20px;
+  background-color: #F85618;
+  /* your orange */
+  color: white;
+  padding: 12px 18px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+/* Desktop version - move to top right of menu container */
+@media(min-width: 768px) {
+  .phone-sticky {
+    top: 145px;
+    bottom: auto;
+  }
 }
