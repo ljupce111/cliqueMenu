@@ -36,10 +36,37 @@ header {
   font-size: 2rem;
 }
 
-#rightSide {
-  font-size: 1.5rem;
-  color: #cecece;
+.lang-switch {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
 }
+.lang-switch button {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  background: none;
+  font-weight: 600;
+}
+.lang-switch button::before {
+  margin-left: auto;
+}
+.lang-switch button::after, .lang-switch button::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+.lang-switch button.active {
+  color: #F85618;
+}
+.lang-switch button:hover::after, button:hover::before {
+  width: 100%;
+}
+
 
 main {
   flex: 1;

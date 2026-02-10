@@ -1,0 +1,1034 @@
+[
+  {
+    "id": 1,
+    "category": "burgers",
+    "name": {
+      "en": "Cheese and Bacon",
+      "mk": "Чиз и Бекон",
+      "gr": "Τσίζ και Μπέικον"
+    },
+    "description": {
+      "en": "Juicy beef burger with melted cheddar, crispy bacon, fresh lettuce, tomato, burger sauce, and fries.",
+      "mk": "Сочен бургер со топен кашкавал, крцкава сланина, свежа марула, домат, бургер сос и помфрит.",
+      "gr": "Ζουμερό μπέργκερ με λιωμένο τσένταρ, τραγανό μπέικον, φρέσκο μαρούλι, ντομάτα, σως μπέργκερ και πατάτες."
+    },
+    "ingredients": {
+      "en": [
+        "Burger Bun",
+        "Beef Patty",
+        "Cheddar Cheese",
+        "Bacon",
+        "Lettuce",
+        "Tomato",
+        "Burger Sauce",
+        "Fries"
+      ],
+      "mk": [
+        "Лепче",
+        "Плескавица",
+        "Кашкавал",
+        "Сланина",
+        "Марула",
+        "Домат",
+        "Бургер сос",
+        "Помфрит"
+      ],
+      "gr": [
+        "Ψωμάκι Μπέργκερ",
+        "Μπιφτέκι",
+        "Τσένταρ",
+        "Μπέικον",
+        "Μαρούλι",
+        "Ντομάτα",
+        "Σως μπέργκερ",
+        "Πατάτες"
+      ]
+    },
+    "price": 250,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": ["beef", "pork"]
+    }
+  },
+  {
+    "id": 2,
+    "category": "burgers",
+    "name": {
+      "en": "Chicken Bacon Ranch",
+      "mk": "Пилешки Бекон Ранч",
+      "gr": "Κοτόπουλο Μπέικον Ραντς"
+    },
+    "description": {
+      "en": "Grilled chicken fillet topped with crispy bacon, ranch sauce, burger sauce, fresh lettuce, tomato, and fries.",
+      "mk": "Пилешко филе на скара со крцкава сланина, ранч сос, бургер сос, свежа марула, домат и помфрит.",
+      "gr": "Φιλέτο κοτόπουλο σχάρας με τραγανό μπέικον, σως ραντς, σως μπέργκερ, φρέσκο μαρούλι, ντομάτα και πατάτες."
+    },
+    "ingredients": {
+      "en": [
+        "Burger Bun",
+        "Grilled Chicken Fillet",
+        "Bacon",
+        "Lettuce",
+        "Tomato",
+        "Ranch Sauce",
+        "Burger Sauce",
+        "Fries"
+      ],
+      "mk": [
+        "Лепче",
+        "Пилешко филе",
+        "Сланина",
+        "Марула",
+        "Домат",
+        "Ранч сос",
+        "Бургер сос",
+        "Помфрит"
+      ],
+      "gr": [
+        "Ψωμάκι Μπέργκερ",
+        "Φιλέτο Κοτόπουλο",
+        "Μπέικον",
+        "Μαρούλι",
+        "Ντομάτα",
+        "Σως Ραντς",
+        "Σως Μπέργκερ",
+        "Πατάτες"
+      ]
+    },
+    "price": 240,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": ["chicken, pork"]
+    }
+  },
+  {
+    "id": 3,
+    "category": "burgers",
+    "name": {
+      "en": "Chix Fillet",
+      "mk": "Чикс Филе",
+      "gr": "Τσικς Φιλέτο"
+    },
+    "description": {
+      "en": "Grilled chicken fillet burger served with fresh lettuce, tomato, burger sauce, and fries.",
+      "mk": "Бургер со пилешко филе на скара, свежа марула, домат, бургер сос и помфрит.",
+      "gr": "Μπέργκερ με φιλέτο κοτόπουλο σχάρας, φρέσκο μαρούλι, ντομάτα, σως μπέργκερ και πατάτες."
+    },
+    "ingredients": {
+      "en": [
+        "Burger Bun",
+        "Grilled Chicken Fillet",
+        "Lettuce",
+        "Tomato",
+        "Burger Sauce",
+        "Fries"
+      ],
+      "mk": [
+        "Лепче",
+        "Пилешко филе",
+        "Марула",
+        "Домат",
+        "Бургер сос",
+        "Помфрит"
+      ],
+      "gr": [
+        "Ψωμάκι Μπέργκερ",
+        "Φιλέτο Κοτόπουλο",
+        "Μαρούλι",
+        "Ντομάτα",
+        "Σως μπέργκερ",
+        "Πατάτες"
+      ]
+    },
+    "price": 210,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": ["chicken"]
+    }
+  },
+  {
+    "id": 4,
+    "category": "burgers",
+    "name": {
+      "en": "Classic LTO",
+      "mk": "Classic LTO",
+      "gr": "Classic LTO"
+    },
+    "description": {
+      "en": "Beef patty burger served with fresh lettuce, tomato, burger sauce, and fries.",
+      "mk": "Јунешка плескавица придружена со марула, домат, бургер сос и помфрит.",
+      "gr": "Μπέργκερ με μοσχαρίσιο μπιφτέκι, φρέσκο μαρούλι, ντομάτα, σως μπέργκερ και πατάτες."
+    },
+    "ingredients": {
+      "en": [
+        "Burger Bun",
+        "Beef Patty",
+        "Lettuce",
+        "Tomato",
+        "Burger Sauce",
+        "Fries"
+      ],
+      "mk": [
+        "Лепче",
+        "Плескавица",
+        "Марула",
+        "Домат",
+        "Бургер сос",
+        "Помфрит"
+      ],
+      "gr": [
+        "Ψωμάκι Μπέργκερ",
+        "Μπιφτέκι",
+        "Μαρούλι",
+        "Ντομάτα",
+        "Σως μπέργκερ",
+        "Πατάτες"
+      ]
+    },
+    "price": 210,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": ["beef"]
+    }
+  },
+  {
+    "id": 5,
+    "category": "burgers",
+    "name": {
+      "en": "Crispy Chix",
+      "mk": "Crispy Chix",
+      "gr": "Crispy Chix"
+    },
+    "description": {
+      "en": "Burger with crispy chicken, served with sweet & spicy sauce, ranch sauce, burger sauce, fresh lettuce, tomato, and fries.",
+      "mk": "Бургер со крцкаво пилешко, со сладко-лут сос, ранч сос, бургер сос, свежа марула, домат и помфрит.",
+      "gr": "Μπέργκερ με τραγανό κοτόπουλο, με γλυκό-πικάντικη σως, σως ραντς, σως μπέργκερ, φρέσκο μαρούλι, ντομάτα και πατάτες."
+    },
+    "ingredients": {
+      "en": [
+        "Burger Bun",
+        "Crispy Chicken",
+        "Lettuce",
+        "Tomato",
+        "Ranch Sauce",
+        "Sweet & Spicy Sauce",
+        "Burger Sauce",
+        "Fries"
+      ],
+      "mk": [
+        "Лепче",
+        "Крцкаво Пилешко",
+        "Марула",
+        "Домат",
+        "Ранч сос",
+        "Сладко-лут сос",
+        "Бургер сос",
+        "Помфрит"
+      ],
+      "gr": [
+        "Ψωμάκι Μπέργκερ",
+        "Τραγανό Κοτόπουλο",
+        "Μαρούλι",
+        "Ντομάτα",
+        "Σως Ραντς",
+        "Γλυκό-Πικάντικη Σως",
+        "Σως μπέργκερ",
+        "Πατάτες"
+      ]
+    },
+    "price": 210,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": ["chicken"]
+    }
+  },
+  {
+    "id": 6,
+    "category": "burgers",
+    "name": {
+      "en": "Crunch",
+      "mk": "Crunch",
+      "gr": "Crunch"
+    },
+    "description": {
+      "en": "Beef burger with crispy potato strips, BBQ mayo, burger sauce, fresh lettuce, tomato, and fries.",
+      "mk": "Бургер со крцкави резанки од компир, BBQ мајонез, бургер сос, свежа марула, домат и помфрит.",
+      "gr": "Μπέργκερ με τραγανά τηγανητά κομμάτια πατάτας, BBQ μαγιονέζα, σως μπέργκερ, φρέσκο μαρούλι, ντομάτα και πατάτες."
+    },
+    "ingredients": {
+      "en": [
+        "Burger Bun",
+        "Beef Patty",
+        "Lettuce",
+        "Tomato",
+        "Crispy Potato Strips",
+        "BBQ Mayo",
+        "Burger Sauce",
+        "Fries"
+      ],
+      "mk": [
+        "Лепче",
+        "Плескавица",
+        "Марула",
+        "Домат",
+        "Крцкав компир",
+        "BBQ мајонез",
+        "Бургер сос",
+        "Помфрит"
+      ],
+      "gr": [
+        "Ψωμάκι Μπέργκερ",
+        "Μπιφτέκι",
+        "Μαρούλι",
+        "Ντομάτα",
+        "Τραγανά κομμάτια πατάτας",
+        "BBQ μαγιονέζα",
+        "Σως μπέργκερ",
+        "Πατάτες"
+      ]
+    },
+    "price": 230,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": ["beef"]
+    }
+  },
+  {
+  "id": 7,
+  "category": "burgers",
+  "name": {
+    "en": "Philly Cheese",
+    "mk": "Philly Cheese",
+    "gr": "Philly Cheese"
+  },
+  "description": {
+    "en": "Baguette with grilled thin strips of pork, sautéed vegetables, and cheese sauce, served with fries.",
+    "mk": "Багета со тенки резанки на скара од свинско, сотирани зеленчуци и сос од кашкавал, со помфрит.",
+    "gr": "Μπαγκέτα με λεπτές ψητές λωρίδες χοιρινού, σωταρισμένα λαχανικά και σως τυριού, με πατάτες."
+  },
+  "ingredients": {
+    "en": [
+      "Baguette",
+      "Grilled Thin Pork Strips",
+      "Sautéed Vegetables",
+      "Cheese Sauce",
+      "Fries"
+    ],
+    "mk": [
+      "Багета",
+      "Тенки резанки на скара",
+      "Сотирани зеленчуци",
+      "Сос од кашкавал",
+      "Помфрит"
+    ],
+    "gr": [
+      "Μπαγκέτα",
+      "Λεπτές ψητές λωρίδες χοιρινού",
+      "Σωταρισμένα λαχανικά",
+      "Σως τυριού",
+      "Πατάτες"
+    ]
+  },
+  "price": 240,
+  "image": "/assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["pork"]
+  }
+},
+{
+  "id": 8,
+  "category": "burgers",
+  "name": {
+    "en": "Pollo Cheese",
+    "mk": "Pollo Cheese",
+    "gr": "Pollo Cheese"
+  },
+  "description": {
+    "en": "Baguette with grilled thin chicken strips, sautéed vegetables, cheese sauce, and fries.",
+    "mk": "Багета со тенки резанки пилешко, сотирани зеленчуци, сос од кашкавал и помфрит.",
+    "gr": "Μπαγκέτα με λεπτές ψητές λωρίδες κοτόπουλο, σωταρισμένα λαχανικά, σως τυριού και πατάτες."
+  },
+  "ingredients": {
+    "en": [
+      "Baguette",
+      "Grilled Thin Chicken Strips",
+      "Sautéed Vegetables",
+      "Cheese Sauce",
+      "Fries"
+    ],
+    "mk": [
+      "Багета",
+      "Тенки резанки пилешко",
+      "Сотирани зеленчуци",
+      "Сос од кашкавал",
+      "Помфрит"
+    ],
+    "gr": [
+      "Μπαγκέτα",
+      "Λεπτές ψητές λωρίδες κοτόπουλο",
+      "Σωταρισμένα λαχανικά",
+      "Σως τυριού",
+      "Πατάτες"
+    ]
+  },
+  "price": 240,
+  "image": "/assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 9,
+  "category": "burgers",
+  "name": {
+    "en": "Shrooms",
+    "mk": "Shrooms",
+    "gr": "Shrooms"
+  },
+  "description": {
+    "en": "Beef burger with mushrooms, crispy onions, balsamic mayo, burger sauce, and fries.",
+    "mk": "Бургер со пекурки, крцкав кромид, балсамико мајонез, бургер сос и помфрит.",
+    "gr": "Μπέργκερ με μανιτάρια, τραγανά κρεμμύδια, μπαλσάμικο μαγιονέζα, σως μπέργκερ και πατάτες."
+  },
+  "ingredients": {
+    "en": [
+      "Burger Bun",
+      "Beef Patty",
+      "Lettuce",
+      "Tomato",
+      "Crispy Onion",
+      "Mushrooms",
+      "Balsamic Mayo",
+      "Burger Sauce",
+      "Fries"
+    ],
+    "mk": [
+      "Лепче",
+      "Плескавица",
+      "Марула",
+      "Домат",
+      "Крцкав кромид",
+      "Пекурки",
+      "Балсамико мајонез",
+      "Бургер сос",
+      "Помфрит"
+    ],
+    "gr": [
+      "Ψωμάκι Μπέργκερ",
+      "Μπιφτέκι",
+      "Μαρούλι",
+      "Ντομάτα",
+      "Τραγανό κρεμμύδι",
+      "Μανιτάρια",
+      "Μπαλσάμικο μαγιονέζα",
+      "Σως μπέργκερ",
+      "Πατάτες"
+    ]
+  },
+  "price": 230,
+  "image": "/assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["beef"]
+  }
+},
+{
+  "id": 10,
+  "category": "burgers",
+  "name": {
+    "en": "The Melt",
+    "mk": "The Melt",
+    "gr": "The Melt"
+  },
+  "description": {
+    "en": "Beef burger with 4 types of melted cheese (Edamer, Gouda, Cheddar, Parmesan), BBQ mayo, burger sauce, and fries.",
+    "mk": "Бургер со 4 видови топен кашкавал (Едамер, Гуда, Чедар, Пармезан), BBQ мајонез, бургер сос и помфрит.",
+    "gr": "Μπέργκερ με 4 είδη λιωμένου τυριού (Edamer, Gouda, Cheddar, Parmesan), BBQ μαγιονέζα, σως μπέργκερ και πατάτες."
+  },
+  "ingredients": {
+    "en": [
+      "Burger Bun",
+      "Beef Patty",
+      "Edamer",
+      "Gouda",
+      "Cheddar",
+      "Parmesan",
+      "BBQ Mayo",
+      "Burger Sauce",
+      "Fries"
+    ],
+    "mk": [
+      "Лепче",
+      "Плескавица",
+      "Едамер",
+      "Гуда",
+      "Чедар",
+      "Пармезан",
+      "BBQ мајонез",
+      "Бургер сос",
+      "Помфрит"
+    ],
+    "gr": [
+      "Ψωμάκι Μπέργκερ",
+      "Μπιφτέκι",
+      "Edamer",
+      "Gouda",
+      "Cheddar",
+      "Parmesan",
+      "BBQ μαγιονέζα",
+      "Σως μπέργκερ",
+      "Πατάτες"
+    ]
+  },
+  "price": 230,
+  "image": "/assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["beef"]
+  }
+},
+{
+  "id": 11,
+  "category": "burgers",
+  "name": {
+    "en": "Veggie Burger",
+    "mk": "Veggie Burger",
+    "gr": "Veggie Burger"
+  },
+  "description": {
+    "en": "Burger with a veggie patty, lettuce, tomato, pickles, burger sauce, and fries.",
+    "mk": "Бургер со плескавица од зеленчук, марула, домат, кисели краставички, бургер сос и помфрит.",
+    "gr": "Μπέργκερ με μπιφτέκι λαχανικών, μαρούλι, ντομάτα, τουρσί, σως μπέργκερ και πατάτες."
+  },
+  "ingredients": {
+    "en": [
+      "Burger Bun",
+      "Veggie Patty",
+      "Lettuce",
+      "Tomato",
+      "Pickles",
+      "Burger Sauce",
+      "Fries"
+    ],
+    "mk": [
+      "Лепче",
+      "Плескавица од зеленчук",
+      "Марула",
+      "Домат",
+      "Кисели краставички",
+      "Бургер сос",
+      "Помфрит"
+    ],
+    "gr": [
+      "Ψωμάκι Μπέργκερ",
+      "Μπιφτέκι λαχανικών",
+      "Μαρούλι",
+      "Ντομάτα",
+      "Τουρσί",
+      "Σως μπέργκερ",
+      "Πατάτες"
+    ]
+  },
+  "price": 210,
+  "image": "/assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": true,
+    "meat": []
+  }
+},
+{
+  "id": 12,
+  "category": "burgers",
+  "name": {
+    "en": "Spicy Cheeseburger",
+    "mk": "Spicy Cheeseburger",
+    "gr": "Spicy Cheeseburger"
+  },
+  "description": {
+    "en": "Beef burger with spicy sauce, cheese, fresh lettuce, tomato, burger sauce, and fries.",
+    "mk": "Бургер со јунешка плескавица, лут сиреач сос, кашкавал, марула, домат, бургер сос и помфрит.",
+    "gr": "Μπέργκερ με μοσχαρίσιο μπιφτέκι, πικάντικη σως, τυρί, μαρούλι, ντομάτα, σως μπέργκερ και πατάτες."
+  },
+  "ingredients": {
+    "en": [
+      "Burger Bun",
+      "Beef Patty",
+      "Lettuce",
+      "Tomato",
+      "Spicy Sauce",
+      "Cheese",
+      "Burger Sauce",
+      "Fries"
+    ],
+    "mk": [
+      "Лепче",
+      "Плескавица",
+      "Марула",
+      "Домат",
+      "Лут сиреач сос",
+      "Кашкавал",
+      "Бургер сос",
+      "Помфрит"
+    ],
+    "gr": [
+      "Ψωμάκι Μπέργκερ",
+      "Μπιφτέκι",
+      "Μαρούλι",
+      "Ντομάτα",
+      "Πικάντικη σως",
+      "Τυρί",
+      "Σως μπέργκερ",
+      "Πατάτες"
+    ]
+  },
+  "price": 230,
+  "image": "/assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["beef"]
+  }
+},
+{
+  "id": 13,
+  "category": "burgers",
+  "name": {
+    "en": "Clique Burger",
+    "mk": "Clique Burger",
+    "gr": "Clique Burger"
+  },
+  "description": {
+    "en": "Burger with two patties, crispy bacon, mushrooms, cheese, spicy sauce, BBQ mayo, burger sauce, fresh lettuce, tomato, onions, and fries.",
+    "mk": "Бургер со две плескавици, крцкава сланина, пекурки, кашкавал, лут сос, BBQ мајонез, бургер сос, марула, домат, кромид и помфрит.",
+    "gr": "Μπέργκερ με δύο μπιφτέκια, τραγανό μπέικον, μανιτάρια, τυρί, πικάντικη σως, BBQ μαγιονέζα, σως μπέργκερ, μαρούλι, ντομάτα, κρεμμύδι και πατάτες."
+  },
+  "ingredients": {
+    "en": [
+      "Burger Bun",
+      "Two Patties",
+      "Lettuce",
+      "Tomato",
+      "Onion",
+      "Cheese",
+      "Mushrooms",
+      "Bacon",
+      "Spicy Sauce",
+      "BBQ Mayo",
+      "Burger Sauce",
+      "Fries"
+    ],
+    "mk": [
+      "Лепче",
+      "Две плескавици",
+      "Марула",
+      "Домат",
+      "Кромид",
+      "Кашкавал",
+      "Пекурки",
+      "Сланина",
+      "Лут сос",
+      "BBQ мајонез",
+      "Бургер сос",
+      "Помфрит"
+    ],
+    "gr": [
+      "Ψωμάκι Μπέργκερ",
+      "Δύο μπιφτέκια",
+      "Μαρούλι",
+      "Ντομάτα",
+      "Κρεμμύδι",
+      "Τυρί",
+      "Μανιτάρια",
+      "Μπέικον",
+      "Πικάντικη σως",
+      "BBQ μαγιονέζα",
+      "Σως μπέργκερ",
+      "Πατάτες"
+    ]
+  },
+  "price": 320,
+  "image": "/assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["beef", "pork"]
+  }
+},
+{
+  "id": 14,
+  "category": "burgers",
+  "name": {
+    "en": "McClique",
+    "mk": "McClique",
+    "gr": "McClique"
+  },
+  "description": {
+    "en": "Slider with beef patty, lettuce, tomato, pickles, burger sauce, and our special McClique sauce on small buns.",
+    "mk": "Слајдер со плескавица од говедско, марула, домат, кисели краставички, бургер сос и McClique сос во нашите специјални лепчиња.",
+    "gr": "Slider με μπιφτέκι μοσχαρίσιο, μαρούλι, ντομάτα, τουρσί, σως μπέργκερ και σως McClique σε ειδικά ψωμάκια."
+  },
+  "ingredients": {
+    "en": [
+      "Small Buns",
+      "Beef Patty",
+      "Lettuce",
+      "Tomato",
+      "Pickles",
+      "Burger Sauce",
+      "McClique Sauce"
+    ],
+    "mk": [
+      "Мали Лепчиња",
+      "Плескавица од говедско",
+      "Марула",
+      "Домат",
+      "Кисели краставички",
+      "Бургер сос",
+      "McClique сос"
+    ],
+    "gr": [
+      "Μικρά Ψωμάκια",
+      "Μπιφτέκι μοσχαρίσιο",
+      "Μαρούλι",
+      "Ντομάτα",
+      "Τουρσί",
+      "Σως μπέργκερ",
+      "Σως McClique"
+    ]
+  },
+  "price": 140,
+  "image": "/assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["beef"]
+  }
+},
+{
+  "id": 15,
+  "category": "burgers",
+  "name": {
+    "en": "McCrispy",
+    "mk": "McCrispy",
+    "gr": "McCrispy"
+  },
+  "description": {
+    "en": "Mini crispy chicken burger with sweet & spicy sauce, ranch sauce, burger sauce, lettuce, tomato on small buns.",
+    "mk": "Мини бургер со крцкаво пилешко, со сладко-лут сос, ранч сос, бургер сос, марула и домат во мали лепчиња.",
+    "gr": "Mini slider με τραγανό κοτόπουλο, γλυκό-πικάντικη σως, σως ραντς, σως μπέργκερ, μαρούλι και ντομάτα σε μικρά ψωμάκια."
+  },
+  "ingredients": {
+    "en": [
+      "Small Buns",
+      "Crispy Chicken",
+      "Lettuce",
+      "Tomato",
+      "Ranch Sauce",
+      "Sweet & Spicy Sauce",
+      "Burger Sauce"
+    ],
+    "mk": [
+      "Мали Лепчиња",
+      "Крцкаво Пилешко",
+      "Марула",
+      "Домат",
+      "Ранч сос",
+      "Сладко-лут сос",
+      "Бургер сос"
+    ],
+    "gr": [
+      "Μικρά Ψωμάκια",
+      "Τραγανό Κοτόπουλο",
+      "Μαρούλι",
+      "Ντομάτα",
+      "Σως Ραντς",
+      "Γλυκό-Πικάντικη Σως",
+      "Σως μπέργκερ"
+    ]
+  },
+  "price": 140,
+  "image": "/assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 16,
+  "category": "burgers",
+  "name": {
+    "en": "Burger Box",
+    "mk": "Burger Box",
+    "gr": "Burger Box"
+  },
+  "description": {
+    "en": "Box with two small burgers — one beef (McClique) and one crispy chicken (McCrispy), served with BBQ mayo, ranch sauce, and large fries.",
+    "mk": "Кутија со два мали бургери — еден говедски (McClique) и еден крцкав пилешки (McCrispy), со BBQ мајонез, ранч сос и голем помфрит.",
+    "gr": "Κουτί με δύο μικρά μπέργκερ — ένα μοσχαρίσιο (McClique) και ένα τραγανό κοτόπουλο (McCrispy), με BBQ μαγιονέζα, σως ραντς και μεγάλες πατάτες."
+  },
+  "ingredients": {
+    "en": [
+      "McClique",
+      "McCrispy",
+      "BBQ Mayo",
+      "Ranch Sauce",
+      "Large Fries"
+    ],
+    "mk": [
+      "McClique",
+      "McCrispy",
+      "BBQ мајонез",
+      "Ранч сос",
+      "Голем помфрит"
+    ],
+    "gr": [
+      "McClique",
+      "McCrispy",
+      "BBQ μαγιονέζα",
+      "Σως Ραντς",
+      "Μεγάλες Πατάτες"
+    ]
+  },
+  "price": 340,
+  "image": "/assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken", "beef"]
+  }
+},
+
+  {
+    "id": 17,
+    "category": "drinks",
+    "name": {
+      "en": "Coca Cola",
+      "mk": "Coca Cola",
+      "gr": "Coca Cola"
+    },
+    "description": {
+      "en": "Refreshing Coca Cola.",
+      "mk": "Освежувачка Coca Cola.",
+      "gr": "Αναζωογονητική Coca Cola."
+    },
+    "ingredients": {
+      "en": ["Coca Cola"],
+      "mk": ["Coca Cola"],
+      "gr": ["Coca Cola"]
+    },
+    "price": 70,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": []
+    }
+  },
+  {
+    "id": 18,
+    "category": "drinks",
+    "name": {
+      "en": "Coca Cola Zero",
+      "mk": "Coca Cola Zero",
+      "gr": "Coca Cola Zero"
+    },
+    "description": {
+      "en": "Sugar-free Coca Cola Zero.",
+      "mk": "Без шеќер Coca Cola Zero.",
+      "gr": "Χωρίς ζάχαρη Coca Cola Zero."
+    },
+    "ingredients": {
+      "en": ["Coca Cola Zero"],
+      "mk": ["Coca Cola Zero"],
+      "gr": ["Coca Cola Zero"]
+    },
+    "price": 70,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": []
+    }
+  },
+  {
+    "id": 19,
+    "category": "drinks",
+    "name": {
+      "en": "Fanta",
+      "mk": "Fanta",
+      "gr": "Fanta"
+    },
+    "description": {
+      "en": "Refreshing orange soda.",
+      "mk": "Освежувачка портокалова сода.",
+      "gr": "Αναζωογονητική πορτοκαλί σόδα."
+    },
+    "ingredients": {
+      "en": ["Fanta"],
+      "mk": ["Fanta"],
+      "gr": ["Fanta"]
+    },
+    "price": 70,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": []
+    }
+  },
+  {
+    "id": 20,
+    "category": "drinks",
+    "name": {
+      "en": "Rosa",
+      "mk": "Rosa",
+      "gr": "Rosa"
+    },
+    "description": {
+      "en": "Refreshing Rosa soda.",
+      "mk": "Освежувачка Rosa сода.",
+      "gr": "Αναζωογονητική Rosa σόδα."
+    },
+    "ingredients": {
+      "en": ["Rosa"],
+      "mk": ["Rosa"],
+      "gr": ["Rosa"]
+    },
+    "price": 60,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": []
+    }
+  },
+  {
+    "id": 21,
+    "category": "drinks",
+    "name": {
+      "en": "Schweppes",
+      "mk": "Schweppes",
+      "gr": "Schweppes"
+    },
+    "description": {
+      "en": "Refreshing Schweppes soda.",
+      "mk": "Освежувачка Schweppes сода.",
+      "gr": "Αναζωογονητική Schweppes σόδα."
+    },
+    "ingredients": {
+      "en": ["Schweppes"],
+      "mk": ["Schweppes"],
+      "gr": ["Schweppes"]
+    },
+    "price": 70,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": []
+    }
+  },
+  {
+    "id": 22,
+    "category": "drinks",
+    "name": {
+      "en": "Sprite",
+      "mk": "Sprite",
+      "gr": "Sprite"
+    },
+    "description": {
+      "en": "Refreshing lemon-lime soda.",
+      "mk": "Освежувачка лимоно-лимета сода.",
+      "gr": "Αναζωογονητική λεμόνι-λάιμ σόδα."
+    },
+    "ingredients": {
+      "en": ["Sprite"],
+      "mk": ["Sprite"],
+      "gr": ["Sprite"]
+    },
+    "price": 70,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": []
+    }
+  },
+  {
+    "id": 23,
+    "category": "drinks",
+    "name": {
+      "en": "Nescafe Frape",
+      "mk": "Nescafe Frape",
+      "gr": "Nescafe Frape"
+    },
+    "description": {
+      "en": "Cold Nescafe frappe coffee.",
+      "mk": "Ладно кафе Nescafe Frape.",
+      "gr": "Κρύος καφές Nescafe Frape."
+    },
+    "ingredients": {
+      "en": ["Nescafe Frape"],
+      "mk": ["Nescafe Frape"],
+      "gr": ["Nescafe Frape"]
+    },
+    "price": 60,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": []
+    }
+  },
+  {
+    "id": 24,
+    "category": "drinks",
+    "name": {
+      "en": "Ice Tea",
+      "mk": "Ice Tea",
+      "gr": "Ice Tea"
+    },
+    "description": {
+      "en": "Refreshing iced tea.",
+      "mk": "Освежувачки ладен чај.",
+      "gr": "Αναζωογονητικό παγωμένο τσάι."
+    },
+    "ingredients": {
+      "en": ["Ice Tea"],
+      "mk": ["Ice Tea"],
+      "gr": ["Ice Tea"]
+    },
+    "price": 80,
+    "image": "/assets/exampleIMG.jpg",
+    "available": true,
+    "mealOptions": {
+      "vegan": false,
+      "meat": []
+    }
+}
+]
+
+
+
+
+
