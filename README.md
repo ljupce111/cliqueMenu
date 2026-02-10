@@ -21,12 +21,14 @@
 - [ ] Adapt site layout and UI for mobile
 - [ ] Option to make an item unavailable (show a warning on the item card that it’s unavailable)
 - [ ] Add “Extras” category
+- [ ] make the cards be horizontali longer when in mobile mode so it can fit more items in the full vh of the phone
 
 ## Bigger / Complex
 - [ ] Store menu items in JSON files (either in the project folder or hosted externally)
 - [ ] Build an admin panel for managing menu items
 - [ ] Add multi-language support
 - [ ] possible idea to think about make it so on mobile when the user scrolls instead of just passing the item it locks on to the item when the user ligthly scrolls
+
 
 
 
