@@ -14,7 +14,7 @@
 ## Medium / Moderate
 - [ ] On mobile, when scrolling through items, only the category buttons and filter buttons stick to the top; the header does not
 - [ ] On the category buttons and filter buttons container:
-  - [ ] On PC: when the window is too small to fit all buttons, show arrows to scroll left/right
+  - [ ] On PC: fix arrow ui
   - [ ] On mobile: allow scrolling with a small arrow indicator
 - [ ] Adapt site layout and UI for mobile
 - [ ] Option to make an item unavailable (show a warning on the item card that it’s unavailable)
@@ -27,6 +27,7 @@
 - [ ] Build an admin panel for managing menu items
 - [ ] Add multi-language support
 - [ ] possible idea to think about make it so on mobile when the user scrolls instead of just passing the item it locks on to the item when the user ligthly scrolls
+
 
 
 
