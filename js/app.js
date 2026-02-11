@@ -9,6 +9,9 @@ const modal = document.getElementById("item-modal");
 const modalClose = document.getElementById("modal-close");
 const modalIngredients = document.getElementById("modal-ingredients");
 
+const storeIcon = document.getElementById("storeIcon");
+const storeModal = document.getElementById("storeModal");
+
 let activeCategory = "all";
 let activeFilter = "all";
 let currentLang = "en";
@@ -227,6 +230,16 @@ langButtons.forEach(btn => {
     renderCategories();
     renderFoodFilters();
   });
+});
+storeIcon.addEventListener("click", (e) => {
+  e.preventDefault();
+  storeModal.classList.remove("hidden");
+});
+
+storeModal.addEventListener("click", (e) => {
+  if (e.target === storeModal) {
+    storeModal.classList.add("hidden");
+  }
 });
 
 // -------------------- INITIAL RENDER --------------------
