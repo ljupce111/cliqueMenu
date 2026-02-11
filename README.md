@@ -8,10 +8,8 @@
 - [x] Put the correct links in the social icons
 - [x] Add the Clique phone number to the site
 - [x] Display a message `"No items"` if there are no items in the category
-
-## Quick / Easy
-- [ ] Add hover effects on cards/buttons
-- [ ] Add an icon for the iphone store app too
+- [x] Add hover effects on cards/buttons
+- [x] Add an icon for the iphone store app too
 
 ## Medium / Moderate
 - [ ] On mobile, when scrolling through items, only the category buttons and filter buttons stick to the top; the header does not
@@ -29,6 +27,7 @@
 - [ ] Build an admin panel for managing menu items
 - [ ] Add multi-language support
 - [ ] possible idea to think about make it so on mobile when the user scrolls instead of just passing the item it locks on to the item when the user ligthly scrolls
+
 
 
 
