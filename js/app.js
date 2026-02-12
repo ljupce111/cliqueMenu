@@ -4,13 +4,13 @@ const categoriesContainer = document.getElementById('categories');
 const menuContainer = document.getElementById('menu');
 const foodFilterContainer = document.getElementById("food-filters");
 const langButtons = document.querySelectorAll(".lang-switch button");
+let isDown = false;
+let startX;
+let scrollLeft;
 
 const modal = document.getElementById("item-modal");
 const modalClose = document.getElementById("modal-close");
 const modalIngredients = document.getElementById("modal-ingredients");
-
-const storeIcon = document.getElementById("storeIcon");
-const storeModal = document.getElementById("storeModal");
 
 let activeCategory = "all";
 let activeFilter = "all";
@@ -106,6 +106,14 @@ function renderCategories() {
       renderCategories();
       renderFoodFilters();
     });
+    button.addEventListener("click", (e) => {
+  e.target.scrollIntoView({
+    behavior: "smooth",
+    inline: "center",
+      block: "nearest"
+
+  });
+});
 
     categoriesContainer.appendChild(button);
   });
@@ -231,17 +239,27 @@ langButtons.forEach(btn => {
     renderFoodFilters();
   });
 });
-storeIcon.addEventListener("click", (e) => {
+categoriesContainer.addEventListener("mousedown", (e) => {
+  isDown = true;
+  categoriesContainer.classList.add("active"); // optional: for cursor change
+  startX = e.pageX - categoriesContainer.offsetLeft;
+  scrollLeft = categoriesContainer.scrollLeft;
+});
+categoriesContainer.addEventListener("mouseleave", () => {
+  isDown = false;
+  categoriesContainer.classList.remove("active");
+});
+categoriesContainer.addEventListener("mouseup", () => {
+  isDown = false;
+  categoriesContainer.classList.remove("active");
+});
+categoriesContainer.addEventListener("mousemove", (e) => {
+  if (!isDown) return;
   e.preventDefault();
-  storeModal.classList.remove("hidden");
+  const x = e.pageX - categoriesContainer.offsetLeft;
+  const walk = (x - startX) * 2; // multiply for faster scrolling
+  categoriesContainer.scrollLeft = scrollLeft - walk;
 });
-
-storeModal.addEventListener("click", (e) => {
-  if (e.target === storeModal) {
-    storeModal.classList.add("hidden");
-  }
-});
-
 // -------------------- INITIAL RENDER --------------------
 langButtons[0].classList.add("active");
 renderMenu();

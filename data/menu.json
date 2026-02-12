@@ -837,7 +837,7 @@
       "gr": ["Coca Cola"]
     },
     "price": 70,
-    "image": "/assets/exampleIMG.jpg",
+    "image": "/assets/drinks/coca-cola.png",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -863,7 +863,7 @@
       "gr": ["Coca Cola Zero"]
     },
     "price": 70,
-    "image": "/assets/exampleIMG.jpg",
+    "image": "/assets/drinks/coca-cola-zero.png",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -889,7 +889,7 @@
       "gr": ["Fanta"]
     },
     "price": 70,
-    "image": "/assets/exampleIMG.jpg",
+    "image": "/assets/drinks/fanta.png",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -915,7 +915,7 @@
       "gr": ["Rosa"]
     },
     "price": 60,
-    "image": "/assets/exampleIMG.jpg",
+    "image": "/assets/drinks/rosa.png",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -941,7 +941,7 @@
       "gr": ["Schweppes"]
     },
     "price": 70,
-    "image": "/assets/exampleIMG.jpg",
+    "image": "/assets/drinks/schweppes.jpg",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -967,7 +967,7 @@
       "gr": ["Sprite"]
     },
     "price": 70,
-    "image": "/assets/exampleIMG.jpg",
+    "image": "/assets/drinks/sprite.png",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -993,7 +993,7 @@
       "gr": ["Nescafe Frape"]
     },
     "price": 60,
-    "image": "/assets/exampleIMG.jpg",
+    "image": "/assets/drinks/nescafe.jpg",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -1019,7 +1019,7 @@
       "gr": ["Ice Tea"]
     },
     "price": 80,
-    "image": "/assets/exampleIMG.jpg",
+    "image": "/assets/drinks/ice-tea.jpg",
     "available": true,
     "mealOptions": {
       "vegan": false,

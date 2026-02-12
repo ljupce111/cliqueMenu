@@ -144,17 +144,18 @@ main {
   padding: 10px 20px;
   background-color: rgba(24, 24, 24, 0.99);
   overflow-x: auto;
+  scrollbar-width: none;
+  cursor: grab;
+  cursor: -webkit-grab;
+}
+#categories.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
 }
 
 #categories::-webkit-scrollbar {
   display: none;
 }
-
-#categories {
-  scrollbar-width: none;
-  /* Firefox */
-}
-
 .category-btn {
   padding: 13px 25px;
   border: none;
@@ -390,7 +391,7 @@ main {
 .modal-content {
   background-color: #fff;
   color: #000;
-  max-width: 500px;
+  width: 500px;
   border-radius: 15px;
   position: relative;
   text-align: center;
@@ -552,12 +553,10 @@ main {
 }
 
 .phone-sticky {
-  position: fixed;
-  /* default mobile position */
-  bottom: 20px;
+  position: fixed;           /* always stays on screen */
+  bottom: 20px;              /* mobile default */
   right: 20px;
   background-color: #F85618;
-  /* your orange */
   color: white;
   padding: 12px 18px;
   border-radius: 50px;
@@ -570,6 +569,7 @@ main {
   justify-content: center;
   transition: all 0.3s ease;
 }
+
 .store-modal {
   position: fixed;
   top: 0;
@@ -581,6 +581,7 @@ main {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  
 }
 
 .store-modal-content {
@@ -635,7 +636,7 @@ main {
 /* Desktop version - move to top right of menu container */
 @media(min-width: 768px) {
   .phone-sticky {
-    top: 145px;
-    bottom: auto;
+    top: 145px;    /* top-right corner */
+    bottom: auto;  /* remove bottom positioning */
   }
 }
