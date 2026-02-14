@@ -74,13 +74,17 @@ main {
 
 .nav {
   border-bottom: 1px solid rgba(182, 181, 181, 0.1);
+  height: auto;
 }
-
 .sticky-container {
+  height: auto;
   position: sticky;
   top: 0;
   z-index: 1000;
+  background-color: #292929; /* important so content doesn’t show through */
 }
+
+
 
 #site-footer {
   font-family: ui-sans-serif;
@@ -181,6 +185,10 @@ main {
 #menu {
   padding: 20px 130px;
   background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 auto;
 }
 
 /* Category title */
@@ -198,6 +206,7 @@ main {
   gap: 20px;
   justify-content: flex-start;
   margin-bottom: 30px;
+
 }
 
 .category-heading {
@@ -495,6 +504,9 @@ main {
 
 #modal-ingredients,
 #dietary-info {
+  background-color: #f3f3f3;
+  padding: 5px 5px;
+  border-radius: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -585,12 +597,15 @@ main {
 }
 
 .store-modal-content {
+  position: relative;
   background: #1e1e1e;           /* dark card */
   padding: 25px 20px;            /* nice spacing */
   border-radius: 1rem;           /* rounded corners */
   width: 300px;
   max-width: 90%;
   text-align: center;
+    box-sizing: border-box;
+
   box-shadow: 0 10px 25px rgba(0,0,0,0.4); /* subtle shadow */
   animation: fadeIn 0.2s ease;
 }
@@ -632,11 +647,149 @@ main {
   object-fit: contain;
   filter: invert(1);
 }
-
+@media (min-width: 1025px) {
+  .phone-sticky{
+    pointer-events: none; /* disables clicks */
+  }
+}
 /* Desktop version - move to top right of menu container */
 @media(min-width: 768px) {
   .phone-sticky {
     top: 145px;    /* top-right corner */
     bottom: auto;  /* remove bottom positioning */
+  }
+}
+@media (max-width: 1024px) {
+  .phone-sticky {
+    pointer-events: auto;
+  }
+} 
+@media (max-width: 768px) {
+   #menu{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .menu-card {
+    display: flex;        /* ensure it’s a flex container */
+    flex-direction: row;  /* image left, info right */
+    width: 100%;
+    height: 150px;
+    gap: 12px;
+    align-items: center;
+    padding: 0
+  }
+
+  .menu-card-image {
+    flex: 0 0 30%;        /* image takes 30% of card */
+    height: 100%;
+    overflow: hidden;
+        border-radius: 1rem;
+
+  }
+
+  .menu-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.8rem;
+  }
+
+  .menu-card-info {
+    flex: 1;              /* take remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    gap: 4px;
+    max-height: 100%;
+  }
+  .menu-card-description{
+    margin: 0;
+  }
+  .menu-card-price-dietary{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .view-btn{
+    background-color: transparent;
+  }
+    /* header scrolls normally */
+  .sticky-container > header {
+    position: relative;
+    z-index: 10;
+  }
+
+  /* nav sticks independently */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #292929;
+  }
+
+  /* categories wrapper scrolls horizontally */
+  .categories-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  header{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+ 
+  header{
+    padding-left: 10px;
+    padding-right: 5px;
+    
+  }
+  .modal-content{
+    width: 90%;
+    height: 80%;
+  }
+.menu-card {
+    flex-direction: row;
+    height: 150px;
+    gap: 12px;
+  }
+
+  .menu-card-image {
+    flex: 0 0 30%;
+    height: 100%;
+    border-radius: 1rem;
+  }
+
+  .menu-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.8rem;
+  }
+
+  .menu-card-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    gap: 4px;
+    max-height: 100%;
+  }
+
+  .menu-card-price-dietary {
+    padding-left: 0;
+    padding-right: 0;
+  }
+ 
+}
+@media (max-width: 885px) {
+  #menu{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .category-container{
+    justify-content: center;
   }
 }

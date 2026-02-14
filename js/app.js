@@ -4,6 +4,21 @@ const categoriesContainer = document.getElementById('categories');
 const menuContainer = document.getElementById('menu');
 const foodFilterContainer = document.getElementById("food-filters");
 const langButtons = document.querySelectorAll(".lang-switch button");
+
+const storeModal = document.getElementById("storeModal")
+const storeButton = document.getElementById('storeIcon');
+const storeModalContent = storeModal.querySelector(".store-modal-content"); // single element
+
+storeButton.addEventListener('click', () => {
+  storeModal.classList.remove('hidden');
+});
+storeModal.addEventListener('click', (e) => {
+  // if click is outside the card
+  if (!storeModalContent.contains(e.target)) {
+    storeModal.classList.add('hidden');
+  }
+});
+
 let isDown = false;
 let startX;
 let scrollLeft;
@@ -11,6 +26,12 @@ let scrollLeft;
 const modal = document.getElementById("item-modal");
 const modalClose = document.getElementById("modal-close");
 const modalIngredients = document.getElementById("modal-ingredients");
+
+
+const stickyContainer = document.querySelector('.sticky-container');
+const nav = document.querySelector('.nav');
+const originalNextSibling = nav.nextElementSibling; // could be null if nav was last child
+
 
 let activeCategory = "all";
 let activeFilter = "all";
@@ -222,6 +243,27 @@ function openItemModal(item) {
 
   modal.classList.remove("hidden");
 }
+function handleTabletNav() {
+  if (!stickyContainer || !nav) return;
+
+  if (window.innerWidth <= 1024) {
+    // Tablet: move nav outside sticky-container if not already
+    if (nav.parentElement === stickyContainer) {
+      stickyContainer.parentNode.insertBefore(nav, stickyContainer.nextSibling);
+    }
+  } else {
+    // Desktop: move nav back inside sticky-container if not already
+    if (nav.parentElement !== stickyContainer) {
+      // Insert back before original next sibling if exists
+      if (originalNextSibling && originalNextSibling.parentElement === stickyContainer) {
+        stickyContainer.insertBefore(nav, originalNextSibling);
+      } else {
+        stickyContainer.appendChild(nav);
+      }
+    }
+  }
+
+}
 
 // -------------------- MODAL CLOSE --------------------
 modalClose.addEventListener("click", () => modal.classList.add("hidden"));
@@ -260,8 +302,14 @@ categoriesContainer.addEventListener("mousemove", (e) => {
   const walk = (x - startX) * 2; // multiply for faster scrolling
   categoriesContainer.scrollLeft = scrollLeft - walk;
 });
+
+
 // -------------------- INITIAL RENDER --------------------
 langButtons[0].classList.add("active");
 renderMenu();
 renderCategories();
-renderFoodFilters();
+renderFoodFilters();// Run on page load
+handleTabletNav();
+
+// Run on window resize
+window.addEventListener('resize', handleTabletNav);
