@@ -28,7 +28,7 @@
 - [ ] on mobile make the phone sticker not stick at the bottom right (its in view of the footer)make it sit at the bottom right but when the footer pops up it goes up with it(it sticks at the bottom right of #menu)
 - [ ] on mobile make the scroll bar visible because its good ui and doesnt change the css like on desktop
 - [ ] add shading effect where the categories and filters are
-- [ ] 
+- [ ] fix modal ui for extras and drinks so when u open the modal it doesnt say ingredients dietary its just the name and price
 
 
 ## Bigger / Complex
