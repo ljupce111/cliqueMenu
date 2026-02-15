@@ -17,10 +17,10 @@
 - [x] On mobile, when scrolling through items, only the category buttons and filter buttons stick to the top; the header does not
 - [x] Adapt site layout and UI for mobile
 - [x] make the cards be horizontali longer when in mobile mode so it can fit more items in the full vh of the phone
+- [x] add unavailable items ui
 
 
 ## Medium / Moderate
-- [ ] add unavailable items ui
 - [ ] add all menu items in json
 - [ ] add a button so when a mobile and tablet user scrolls a little arrow or somekind of a button is added to the screen that takes the user to the top of the page so the user doesn have to scroll to get to the top
 - [ ] add fading to the bottom of the page on mobile and tablet mode(add the effect on the ingredients on mobile when they dont fit, description for mobile)
@@ -35,6 +35,7 @@
 - [ ] Build an admin panel for managing menu items
 - [ ] possible idea to think about make it so on mobile when the user scrolls instead of just passing the item it locks on to the item when the user ligthly scrolls
 - [ ] on mobile add arrows that the user can click and the item to the bottom or top goes to the top of the view point so the user can scroll with the harrows
+
 
 
 
