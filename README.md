@@ -32,11 +32,13 @@
 - [ ] add correct filters
 - [ ] on mobile and tablet make it so when the desc is too long instead of growing it stayes inside the box and the user can scroll down
 - [ ] add a funtion that will check if the item has any ingredients or dietary info and if it doesnt it removes the text from the module
+- [ ] when a module is opened if the user scrolls the background doesnt, when a module is opened the background freezes for better ux
 
 ## Bigger / Complex
 - [ ] Build an admin panel for managing menu items
 - [ ] possible idea to think about make it so on mobile when the user scrolls instead of just passing the item it locks on to the item when the user ligthly scrolls
 - [ ] on mobile add arrows that the user can click and the item to the bottom or top goes to the top of the view point so the user can scroll with the harrows
+
 
 
 
