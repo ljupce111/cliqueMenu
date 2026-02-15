@@ -39,7 +39,7 @@ let currentLang = "en";
 
 let menuItems = [];
 
-fetch('/data/menu.json')
+fetch('https://ljupce111.github.io/cliqueMenu/data/menu.json')
   .then(response => response.json())
   .then(data => {
     menuItems = data;
