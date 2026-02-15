@@ -327,8 +327,25 @@ main {
 }
 
 .menu-card.unavailable {
-  opacity: 0.4;
-  pointer-events: none;
+  opacity: 0.5;               /* fade it out */
+  pointer-events: none;        /* disables clicking */
+  filter: grayscale(70%);     /* optional: desaturate image */
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+/* Optional: overlay text */
+.menu-card.unavailable::after {
+  content: "Unavailable";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background: rgb(255, 0, 0);
+  padding: 4px 8px;
+  border-radius: 6px;
 }
 
 .tag {

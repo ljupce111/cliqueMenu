@@ -1025,6 +1025,1540 @@
       "vegan": false,
       "meat": []
     }
+},
+{
+  "id": 25,
+  "category": "meals",
+  "name": {
+    "en": "Carne Piatto",
+    "mk": "Carne Piatto",
+    "gr": "Carne Piatto"
+  },
+  "description": {
+    "en": "Crispy homemade potatoes, pork, mushrooms, onion, ranch, and Karnivore sauce. Double portion of the Mini Carne.",
+    "mk": "Крцкав домашен компир, свинско месо, печурки, кромид, ранч и Karnivore сос. Двојна порција на мини Карне.",
+    "gr": "Τραγανές σπιτικές πατάτες, χοιρινό, μανιτάρια, κρεμμύδι, σως ράντς και σως Karnivore. Διπλή μερίδα του Mini Carne."
+  },
+  "ingredients": {
+    "en": ["Crispy homemade potatoes", "Pork", "Mushrooms", "Onion", "Ranch", "Karnivore sauce"],
+    "mk": ["Крцкав домашен компир", "Свинско месо", "Печурки", "Кромид", "Ранч", "Karnivore сос"],
+    "gr": ["Τραγανές σπιτικές πατάτες", "Χοιρινό", "Μανιτάρια", "Κρεμμύδι", "Σως Ραντς", "Σως Karnivore"]
+  },
+  "price": 500,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["pork"]
+  }
+},
+{
+  "id": 26,
+  "category": "meals",
+  "name": {
+    "en": "FC Box",
+    "mk": "FC Box",
+    "gr": "FC Box"
+  },
+  "description": {
+    "en": "Crispy chicken with 3 sauces (Ranch, BBQ Mayo, and Sweet & Spicy).",
+    "mk": "Крцкаво пилешко со 3 соса (Ранч, BBQ Мајонез и Слатко и Пикантно).",
+    "gr": "Τραγανό κοτόπουλο με 3 σάλτσες (Ραντς, BBQ Μαγεονέζα και Γλυκό & Πικάντικο)."
+  },
+  "ingredients": {
+    "en": ["Crispy chicken", "BBQ Mayo", "Ranch", "Sweet & Spicy"],
+    "mk": ["Крцкаво пилешко", "BBQ Мајонез", "Ранч", "Слатко и Пикантно"],
+    "gr": ["Τραγανό κοτόπουλο", "BBQ Μαγεονέζα", "Ραντς", "Γλυκό & Πικάντικο"]
+  },
+  "price": 330,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 27,
+  "category": "meals",
+  "name": {
+    "en": "Loaded Fries",
+    "mk": "Loaded Fries",
+    "gr": "Loaded Fries"
+  },
+  "description": {
+    "en": "Fries topped with cheese and bacon sauce (can add chicken or mushrooms).",
+    "mk": "Помфрит прелиен со сос од кашкавал и сланина (може да се додаде пилешко или печурки).",
+    "gr": "Πατάτες τηγανιτές με σάλτσα τυριού και μπέικον (μπορεί να προστεθεί κοτόπουλο ή μανιτάρια)."
+  },
+  "ingredients": {
+    "en": ["Fries", "Cheese", "Bacon"],
+    "mk": ["Помфрит", "Кашкавал", "Сланина"],
+    "gr": ["Πατάτες τηγανιτές", "Τυρί", "Μπέικον"]
+  },
+  "price": 230,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 28,
+  "category": "meals",
+  "name": {
+    "en": "Mini Carne",
+    "mk": "Mini Carne",
+    "gr": "Mini Carne"
+  },
+  "description": {
+    "en": "Homemade crispy potatoes, pork, Karnivore sauce, and ranch.",
+    "mk": "Домаен крцкав компир, свинско месо, Karnivore сос и ранч.",
+    "gr": "Σπιτικές τραγανές πατάτες, χοιρινό, σως Karnivore και ράντς."
+  },
+  "ingredients": {
+    "en": ["Crispy potatoes", "Pork", "Karnivore sauce", "Ranch"],
+    "mk": ["Крцкав компир", "Свинско", "Karnivore сос", "Ранч"],
+    "gr": ["Τραγανές πατάτες", "Χοιρινό", "Σως Karnivore", "Ραντς"]
+  },
+  "price": 260,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["pork"]
+  }
+},
+{
+  "id": 29,
+  "category": "meals",
+  "name": {
+    "en": "Mini Pollo",
+    "mk": "Mini Pollo",
+    "gr": "Mini Pollo"
+  },
+  "description": {
+    "en": "Homemade crispy potatoes, chicken, curry, and ranch.",
+    "mk": "Домаен крцкав компир, пилешко месо, кари и ранч.",
+    "gr": "Σπιτικές τραγανές πατάτες, κοτόπουλο, κάρι και ράντς."
+  },
+  "ingredients": {
+    "en": ["Crispy potatoes", "Chicken", "Curry", "Ranch"],
+    "mk": ["Крцкав компир", "Пилешко", "Кари", "Ранч"],
+    "gr": ["Τραγανές πατάτες", "Κοτόπουλο", "Κάρι", "Ραντς"]
+  },
+  "price": 260,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 30,
+  "category": "meals",
+  "name": {
+    "en": "Pollo Piatto",
+    "mk": "Pollo Piatto",
+    "gr": "Pollo Piatto"
+  },
+  "description": {
+    "en": "Homemade crispy potatoes, chicken, curry, ranch, and mushrooms. Double portion of the Mini Pollo.",
+    "mk": "Домаен крцкав компир, пилешко месо, кари, ранч и печурки. Двојна порција на Mini Pollo.",
+    "gr": "Σπιτικές τραγανές πατάτες, κοτόπουλο, κάρι, ράντς και μανιτάρια. Διπλή μερίδα του Mini Pollo."
+  },
+  "ingredients": {
+    "en": ["Crispy potatoes", "Chicken", "Curry", "Ranch", "Mushrooms"],
+    "mk": ["Крцкав компир", "Пилешко", "Кари", "Ранч", "Печурки"],
+    "gr": ["Τραγανές πατάτες", "Κοτόπουλο", "Κάρι", "Ραντς", "Μανιτάρια"]
+  },
+  "price": 500,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 29,
+  "category": "meals",
+  "name": {
+    "en": "Mini Pollo",
+    "mk": "Mini Pollo",
+    "gr": "Mini Pollo"
+  },
+  "description": {
+    "en": "Homemade crispy potatoes, chicken, curry, ranch, and mushrooms.",
+    "mk": "Домаен крцкав компир, пилешко месо, кари, ранч и печурки.",
+    "gr": "Σπιτικές τραγανές πατάτες, κοτόπουλο, κάρι, ράντς και μανιτάρια."
+  },
+  "ingredients": {
+    "en": ["Crispy potatoes", "Chicken", "Curry", "Ranch", "Mushrooms"],
+    "mk": ["Крцкав компир", "Пилешко", "Кари", "Ранч", "Печурки"],
+    "gr": ["Τραγανές πατάτες", "Κοτόπουλο", "Κάρι", "Ραντς", "Μανιτάρια"]
+  },
+  "price": 260,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 31,
+  "category": "meals",
+  "name": {
+    "en": "Chicken Rice",
+    "mk": "Chicken Rice",
+    "gr": "Chicken Rice"
+  },
+  "description": {
+    "en": "Rice, grilled chicken, salad, mixed vegetables, and Limoncello dressing.",
+    "mk": "Ориз, пилешко на скара, салата, мешан зеленчук и Limoncello дресинг.",
+    "gr": "Ρύζι, ψητό κοτόπουλο, σαλάτα, ανάμεικτα λαχανικά και Limoncello dressing."
+  },
+  "ingredients": {
+    "en": ["Rice", "Grilled chicken", "Salad", "Mixed vegetables", "Limoncello dressing"],
+    "mk": ["Ориз", "Пилешко на скара", "Салата", "Мешан зеленчук", "Limoncello дресинг"],
+    "gr": ["Ρύζι", "Ψητό κοτόπουλο", "Σαλάτα", "Ανάμεικτα λαχανικά", "Limoncello dressing"]
+  },
+  "price": 240,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 32,
+  "category": "meals",
+  "name": {
+    "en": "Pasta Crispy Chicken",
+    "mk": "Pasta Crispy Chicken",
+    "gr": "Pasta Crispy Chicken"
+  },
+  "description": {
+    "en": "Crispy chicken, aglio e olio pasta, salad, mixed vegetables, and Limoncello dressing.",
+    "mk": "Крцкаво пилешко, аљо е ољо паста, салата, мешан зеленчук и Limoncello дресинг.",
+    "gr": "Τραγανό κοτόπουλο, ζυμαρικά aglio e olio, σαλάτα, ανάμεικτα λαχανικά και Limoncello dressing."
+  },
+  "ingredients": {
+    "en": ["Crispy chicken", "Aglio e olio pasta", "Salad", "Mixed vegetables", "Limoncello dressing"],
+    "mk": ["Крцкаво пилешко", "Аљо е ољо паста", "Салата", "Мешан зеленчук", "Limoncello дресинг"],
+    "gr": ["Τραγανό κοτόπουλο", "Ζυμαρικά aglio e olio", "Σαλάτα", "Ανάμεικτα λαχανικά", "Limoncello dressing"]
+  },
+  "price": 240,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 33,
+  "category": "meals",
+  "name": {
+    "en": "Protein Meal",
+    "mk": "Protein Meal",
+    "gr": "Protein Meal"
+  },
+  "description": {
+    "en": "Protein pasta, grilled chicken, salad, mixed vegetables, Limoncello dressing, 50g protein. Takes 40 minutes to 1 hour to be ready.",
+    "mk": "Протеинска паста, пилешко на скара, салата, мешан зеленчук, Limoncello дресинг, 50г протеин. Се подготвува 40 минути до 1 час.",
+    "gr": "Πρωτεϊνική πάστα, ψητό κοτόπουλο, σαλάτα, ανάμεικτα λαχανικά, Limoncello dressing, 50γρ πρωτεΐνη. Χρειάζεται 40 λεπτά έως 1 ώρα για να ετοιμαστεί."
+  },
+  "ingredients": {
+    "en": ["Protein pasta", "Grilled chicken", "Salad", "Mixed vegetables", "Limoncello dressing", "50g protein"],
+    "mk": ["Протеинска паста", "Пилешко на скара", "Салата", "Мешан зеленчук", "Limoncello дресинг", "50г протеин"],
+    "gr": ["Πρωτεϊνική πάστα", "Ψητό κοτόπουλο", "Σαλάτα", "Ανάμεικτα λαχανικά", "Limoncello dressing", "50γρ πρωτεΐνη"]
+  },
+  "price": 330,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 34,
+  "category": "meals",
+  "name": {
+    "en": "McClique Happy Meal",
+    "mk": "McClique Happy Meal",
+    "gr": "McClique Happy Meal"
+  },
+  "description": {
+    "en": "McClique burger, fries, Coca-Cola.",
+    "mk": "McClique бургер, помфрит, Кока-Кола.",
+    "gr": "McClique burger, πατάτες, Coca-Cola."
+  },
+  "ingredients": {
+    "en": [
+      "Small Buns",
+      "Beef Patty",
+      "Lettuce",
+      "Tomato",
+      "Pickles",
+      "Burger Sauce",
+      "McClique Sauce"
+    ],
+    "mk": [
+      "Мали лепчиња",
+      "Говежда плескавица",
+      "Марула",
+      "Домат",
+      "Кисели краставички",
+      "Бургер сос",
+      "McClique сос"
+    ],
+    "gr": [
+      "Μικρά ψωμάκια",
+      "Μπιφτέκι βοδινού",
+      "Μαρούλι",
+      "Ντομάτα",
+      "Πίκλες",
+      "Σως μπέργκερ",
+      "Σως McClique"
+    ]
+  },
+  "price": 230,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["beef"]
+  }
+},
+{
+  "id": 35,
+  "category": "meals",
+  "name": {
+    "en": "McCrispy Happy Meal",
+    "mk": "McCrispy Happy Meal",
+    "gr": "McCrispy Happy Meal"
+  },
+  "description": {
+    "en": "McCrispy burger, fries, Coca-Cola.",
+    "mk": "McCrispy бургер, помфрит, Кока-Кола.",
+    "gr": "McCrispy burger, πατάτες, Coca-Cola."
+  },
+  "ingredients": {
+    "en": [
+      "Small Buns",
+      "Crispy Chicken",
+      "Lettuce",
+      "Tomato",
+      "Ranch Sauce",
+      "Sweet & Spicy Sauce",
+      "Burger Sauce"
+    ],
+    "mk": [
+      "Мали лепчиња",
+      "Крцкаво пилешко",
+      "Марула",
+      "Домат",
+      "Ранч сос",
+      "Слатко & зачинето сос",
+      "Бургер сос"
+    ],
+    "gr": [
+      "Μικρά ψωμάκια",
+      "Τραγανό κοτόπουλο",
+      "Μαρούλι",
+      "Ντομάτα",
+      "Σως ράντς",
+      "Γλυκό & πικάντικο σως",
+      "Σως μπέργκερ"
+    ]
+  },
+  "price": 230,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 36,
+  "category": "meals",
+  "name": {
+    "en": "Party Meal",
+    "mk": "Party Meal",
+    "gr": "Party Meal"
+  },
+  "description": {
+    "en": "5 McCrispy and 5 McClique burgers. Only preorders.",
+    "mk": "5 McCrispy и 5 McClique бургери. Само по нарачка.",
+    "gr": "5 McCrispy και 5 McClique burgers. Μόνο με προπαραγγελία."
+  },
+  "ingredients": {
+    "en": ["5 McCrispy", "5 McClique"],
+    "mk": ["5 McCrispy", "5 McClique"],
+    "gr": ["5 McCrispy", "5 McClique"]
+  },
+  "price": 1300,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken", "beef"]
+  }
+},
+{
+  "id": 37,
+  "category": "noodles_poke",
+  "name": {
+    "en": "Chix and Vegg",
+    "mk": "Chix and Vegg",
+    "gr": "Chix and Vegg"
+  },
+  "description": {
+    "en": "Homemade hand-made noodles, rice, vegetables, chicken, teriyaki sauce, and sesame. You can add bacon and mushrooms.",
+    "mk": "Домаќински рачно изработени нудли, ориз, зеленчук, пилешко, теријаки сос и сусам. Може да се додаде сланина и печурки.",
+    "gr": "Σπιτικά χειροποίητα noodles, ρύζι, λαχανικά, κοτόπουλο, σως τεριάκι και σουσάμι. Μπορείτε να προσθέσετε μπέικον και μανιτάρια."
+  },
+  "ingredients": {
+    "en": ["Noodles", "Rice", "Vegetables", "Chicken", "Teriyaki sauce", "Sesame"],
+    "mk": ["Нудли", "Ориз", "Зеленчук", "Пилешко", "Теријаки сос", "Сусам"],
+    "gr": ["Noodles", "Ρύζι", "Λαχανικά", "Κοτόπουλο", "Σως τεριάκι", "Σουσάμι"]
+  },
+  "price": 240,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 38,
+  "category": "noodles_poke",
+  "name": {
+    "en": "Shrimp and Vegg",
+    "mk": "Shrimp and Vegg",
+    "gr": "Shrimp and Vegg"
+  },
+  "description": {
+    "en": "Homemade hand-made noodles, rice, vegetables, shrimp, teriyaki sauce, and sesame. You can add mushrooms or bacon.",
+    "mk": "Домаќински рачно изработени нудли, ориз, зеленчук, шкемпи, теријаки сос и сусам. Може да се додадат печурки или сланина.",
+    "gr": "Σπιτικά χειροποίητα noodles, ρύζι, λαχανικά, γαρίδες, σως τεριάκι και σουσάμι. Μπορείτε να προσθέσετε μανιτάρια ή μπέικον."
+  },
+  "ingredients": {
+    "en": ["Noodles", "Rice", "Vegetables", "Shrimp", "Teriyaki sauce", "Sesame"],
+    "mk": ["Нудли", "Ориз", "Зеленчук", "Шкемпи", "Теријаки сос", "Сусам"],
+    "gr": ["Noodles", "Ρύζι", "Λαχανικά", "Γαρίδες", "Σως τεριάκι", "Σουσάμι"]
+  },
+  "price": 330,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 39,
+  "category": "noodles_poke",
+  "name": {
+    "en": "Vegg Noodles",
+    "mk": "Vegg Noodles",
+    "gr": "Vegg Noodles"
+  },
+  "description": {
+    "en": "Homemade hand-made noodles, rice, sautéed vegetables, egg, teriyaki sauce, and sesame. You can add mushrooms or bacon.",
+    "mk": "Домаќински рачно изработени нудли, ориз, сотиран зеленчук, јајце, теријаки сос и сусам. Може да се додадат печурки или сланина.",
+    "gr": "Σπιτικά χειροποίητα noodles, ρύζι, σοταρισμένα λαχανικά, αυγό, σως τεριάκι και σουσάμι. Μπορείτε να προσθέσετε μανιτάρια ή μπέικον."
+  },
+  "ingredients": {
+    "en": ["Noodles", "Rice", "Sautéed vegetables", "Egg", "Teriyaki sauce", "Sesame"],
+    "mk": ["Нудли", "Ориз", "Сотиран зеленчук", "Јајце", "Теријаки сос", "Сусам"],
+    "gr": ["Noodles", "Ρύζι", "Σοταρισμένα λαχανικά", "Αυγό", "Σως τεριάκι", "Σουσάμι"]
+  },
+  "price": 220,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": true,
+    "meat": []
+  }
+},
+{
+  "id": 40,
+  "category": "noodles_poke",
+  "name": {
+    "en": "Chicken Poke",
+    "mk": "Chicken Poke",
+    "gr": "Chicken Poke"
+  },
+  "description": {
+    "en": "Our fresh chicken poke bowl. You get seasoned rice topped with chicken, green peas, carrots, red cabbage, and corn, accompanied by our signature Limoncello and soy sauces. This is a cold dish.",
+    "mk": "Нашата свежа чикен поке чинија. Добивате зачинет ориз со пилешко, зелен грашок, морков, црвено зелје и пченка, проследено со нашиот потпис Лимончело и соја сосови. Ова е ладно јадење.",
+    "gr": "Η φρέσκια μας Chicken Poke Bowl. Λαμβάνετε ρύζι με κοτόπουλο, πράσινα μπιζέλια, καρότα, κόκκινο λάχανο και καλαμπόκι, συνοδευόμενο από τη σπεσιαλιτέ μας Limoncello και σόγια σος. Αυτό είναι ένα κρύο πιάτο."
+  },
+  "ingredients": {
+    "en": ["Seasoned rice", "Chicken", "Green peas", "Carrots", "Red cabbage", "Corn", "Limoncello sauce", "Soy sauce"],
+    "mk": ["Зачинет ориз", "Пилешко", "Зелен грашок", "Морков", "Црвено зелје", "Пченка", "Лимончело сос", "Соја сос"],
+    "gr": ["Ρύζι με καρυκεύματα", "Κοτόπουλο", "Πράσινα μπιζέλια", "Καρότα", "Κόκκινο λάχανο", "Καλαμπόκι", "Σως Limoncello", "Σόγια σος"]
+  },
+  "price": 220,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 41,
+  "category": "noodles_poke",
+  "name": {
+    "en": "Vegan Poke",
+    "mk": "Vegan Poke",
+    "gr": "Vegan Poke"
+  },
+  "description": {
+    "en": "Our fresh vegan poke bowl. You get seasoned rice topped with chickpeas, green peas, carrot, red cabbage, and corn, accompanied by our signature Limoncello and soy sauce. This dish is cold.",
+    "mk": "Нашата свежа веган поке чинија. Добивате зачинет ориз со нахут, зелен грашок, морков, црвено зелје и пченка, проследено со нашиот потпис Лимончело и соја сос. Ова е ладно јадење.",
+    "gr": "Η φρέσκια μας Vegan Poke Bowl. Λαμβάνετε ρύζι με ρεβίθια, πράσινα μπιζέλια, καρότο, κόκκινο λάχανο και καλαμπόκι, συνοδευόμενο από τη σπεσιαλιτέ μας Limoncello και σόγια σος. Αυτό είναι ένα κρύο πιάτο."
+  },
+  "ingredients": {
+    "en": ["Seasoned rice", "Chickpeas", "Green peas", "Carrot", "Red cabbage", "Corn", "Limoncello sauce", "Soy sauce"],
+    "mk": ["Зачинет ориз", "Нахут", "Зелен грашок", "Морков", "Црвено зелје", "Пченка", "Лимончело сос", "Соја сос"],
+    "gr": ["Ρύζι με καρυκεύματα", "Ρεβίθια", "Πράσινα μπιζέλια", "Καρότο", "Κόκκινο λάχανο", "Καλαμπόκι", "Σως Limoncello", "Σόγια σος"]
+  },
+  "price": 220,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": true,
+    "meat": []
+  }
+},
+{
+  "id": 42,
+  "category": "pasta",
+  "name": {
+    "en": "Bolognese",
+    "mk": "Bolognese",
+    "gr": "Bolognese"
+  },
+  "description": {
+    "en": "Classic Bolognese.",
+    "mk": "Класична Бологнезе.",
+    "gr": "Κλασική Μπολονέζε."
+  },
+  "ingredients": {
+    "en": ["Pasta", "Ground beef", "Tomato sauce", "Onion", "Garlic", "Carrot", "Celery", "Olive oil", "Salt", "Pepper"],
+    "mk": ["Паста", "Мелен говедско месо", "Домашен сос од домати", "Кромид", "Лук", "Морков", "Целер", "Маслиново масло", "Сол", "Бибер"],
+    "gr": ["Ζυμαρικά", "Κιμάς βοδινού", "Σάλτσα ντομάτας", "Κρεμμύδι", "Σκόρδο", "Καρότο", "Σέλινο", "Ελαιόλαδο", "Αλάτι", "Πιπέρι"]
+  },
+  "price": 230,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["beef"]
+  }
+},
+{
+  "id": 43,
+  "category": "pasta",
+  "name": {
+    "en": "Chicken Alfredo",
+    "mk": "Chicken Alfredo",
+    "gr": "Chicken Alfredo"
+  },
+  "description": {
+    "en": "Combination of cheeses with chicken.",
+    "mk": "Комбинација од сирење со пилешко.",
+    "gr": "Συνδυασμός τυριών με κοτόπουλο."
+  },
+  "ingredients": {
+    "en": ["Chicken", "Cheeses"],
+    "mk": ["Пилешко", "Сирење"],
+    "gr": ["Κοτόπουλο", "Τυριά"]
+  },
+  "price": 230,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 44,
+  "category": "pasta",
+  "name": {
+    "en": "Italian Pocket",
+    "mk": "Italian Pocket",
+    "gr": "Italian Pocket"
+  },
+  "description": {
+    "en": "Excellent blend of pink sauce and mushroom sauce.",
+    "mk": "Одличен бленд од розов сос и сос од печурки.",
+    "gr": "Εξαιρετικός συνδυασμός ροζ σάλτσας και σάλτσας μανιταριών."
+  },
+  "ingredients": {
+    "en": ["Pink sauce", "Mushroom sauce", "Chicken"],
+    "mk": ["Розов сос", "Сос од печурки", "Пилешко"],
+    "gr": ["Ροζ σάλτσα", "Σάλτσα μανιταριών", "Κοτόπουλο"]
+  },
+  "price": 240,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 45,
+  "category": "pasta",
+  "name": {
+    "en": "Mushroom",
+    "mk": "Mushroom",
+    "gr": "Mushroom"
+  },
+  "description": {
+    "en": "Pasta with mushroom sauce and sautéed mushrooms. You can add chicken or bacon.",
+    "mk": "Паста со сос од печурки и сотирани печурки. Може да се додаде пилешко или сланина.",
+    "gr": "Ζυμαρικά με σάλτσα μανιταριών και σοταρισμένα μανιτάρια. Μπορείτε να προσθέσετε κοτόπουλο ή μπέικον."
+  },
+  "ingredients": {
+    "en": ["Mushroom sauce", "Sautéed mushrooms"],
+    "mk": ["Сос од печурки", "Сотирани печурки"],
+    "gr": ["Σάλτσα μανιταριών", "Σοταρισμένα μανιτάρια"]
+  },
+  "price": 210,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 46,
+  "category": "pasta",
+  "name": {
+    "en": "Napolitana",
+    "mk": "Napolitana",
+    "gr": "Napolitana"
+  },
+  "description": {
+    "en": "Pasta with classic tomato sauce.",
+    "mk": "Паста со класичен сос од домати.",
+    "gr": "Ζυμαρικά με κλασική σάλτσα ντομάτας."
+  },
+  "ingredients": {
+    "en": ["Pasta", "Tomato sauce"],
+    "mk": ["Паста", "Сос од домати"],
+    "gr": ["Ζυμαρικά", "Σάλτσα ντομάτας"]
+  },
+  "price": 210,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 47,
+  "category": "pasta",
+  "name": {
+    "en": "Pink Sauce",
+    "mk": "Pink Sauce",
+    "gr": "Pink Sauce"
+  },
+  "description": {
+    "en": "Pasta with pink sauce, parmesan, and parsley. You can add chicken, bacon, or mushrooms.",
+    "mk": "Паста со розев сос, пармезан и магданос. Може да се додаде пилешко, сланина или печурки.",
+    "gr": "Ζυμαρικά με ροζ σάλτσα, παρμεζάνα και μαϊντανό. Μπορείτε να προσθέσετε κοτόπουλο, μπέικον ή μανιτάρια."
+  },
+  "ingredients": {
+    "en": ["Pink sauce", "Parmesan"],
+    "mk": ["Розев сос", "Пармезан"],
+    "gr": ["Ροζ σάλτσα", "Παραμζάνα"]
+  },
+  "price": 210,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 48,
+  "category": "pasta",
+  "name": {
+    "en": "Pesto Pasta",
+    "mk": "Pesto Pasta",
+    "gr": "Pesto Pasta"
+  },
+  "description": {
+    "en": "Pasta with pesto sauce, sautéed onions, and parmesan.",
+    "mk": "Паста со песто сос, пржен кромид и пармезан.",
+    "gr": "Ζυμαρικά με σάλτσα πέστο, σοταρισμένα κρεμμύδια και παρμεζάνα."
+  },
+  "ingredients": {
+    "en": ["Pesto", "Sautéed onions", "Parmesan"],
+    "mk": ["Песто", "Пржен кромид", "Пармезан"],
+    "gr": ["Πέστο", "Σοταρισμένα κρεμμύδια", "Παραμζάνα"]
+  },
+  "price": 240,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 49,
+  "category": "pasta",
+  "name": {
+    "en": "Aglio e Oglio",
+    "mk": "Aglio e Oglio",
+    "gr": "Aglio e Oglio"
+  },
+  "description": {
+    "en": "Penne pasta with rice, olive oil, chicken, parmesan, mushrooms, and sautéed onions.",
+    "mk": "Пене паста со ориз, маслиново масло, пилешко, пармезан, печурки и пржен кромид.",
+    "gr": "Πέννε ζυμαρικά με ρύζι, ελαιόλαδο, κοτόπουλο, παρμεζάνα, μανιτάρια και σοταρισμένα κρεμμύδια."
+  },
+  "ingredients": {
+    "en": ["Penne pasta", "Rice", "Olive oil", "Chicken", "Parmesan", "Mushrooms", "Sautéed onions"],
+    "mk": ["Пене паста", "Ориз", "Маслиново масло", "Пилешко", "Пармезан", "Печурки", "Пржен кромид"],
+    "gr": ["Πέννε ζυμαρικά", "Ρύζι", "Ελαιόλαδο", "Κοτόπουλο", "Παραμζάνα", "Μανιτάρια", "Σοταρισμένα κρεμμύδια"]
+  },
+  "price": 230,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 50,
+  "category": "pizza",
+  "name": {
+    "en": "Pizza Chicken Bacon Ranch",
+    "mk": "Pizza Chicken Bacon Ranch",
+    "gr": "Pizza Chicken Bacon Ranch"
+  },
+  "description": {
+    "en": "Homemade hand-made dough, cream cheese base, chicken, bacon, cheese, ranch sauce.",
+    "mk": "Домаено рачно изработено тесто, крем сир основа, пилешко, сланина, кашкавал, ранч сос.",
+    "gr": "Σπιτική χειροποίητη ζύμη, βάση κρέμα τυριού, κοτόπουλο, μπέικον, τυρί, σως ράντς."
+  },
+  "ingredients": {
+    "en": ["Homemade dough", "Cream cheese base", "Chicken", "Bacon", "Cheese", "Ranch sauce"],
+    "mk": ["Домаено тесто", "Крем сир основа", "Пилешко", "Сланина", "Кашкавал", "Ранч сос"],
+    "gr": ["Χειροποίητη ζύμη", "Βάση κρέμας τυριού", "Κοτόπουλο", "Μπέικον", "Τυρί", "Σως ράντς"]
+  },
+  "price": 350,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken","pork"]
+  }
+},
+{
+  "id": 51,
+  "category": "pizza",
+  "name": {
+    "en": "Pizza Mushroom",
+    "mk": "Pizza Mushroom",
+    "gr": "Pizza Mushroom"
+  },
+  "description": {
+    "en": "Homemade hand-made dough, cream cheese base, mushrooms, cheese.",
+    "mk": "Домаено рачно изработено тесто, крем сир основа, печурки, кашкавал.",
+    "gr": "Σπιτική χειροποίητη ζύμη, βάση κρέμας τυριού, μανιτάρια, τυρί."
+  },
+  "ingredients": {
+    "en": ["Homemade dough", "Cream cheese base", "Mushrooms", "Cheese"],
+    "mk": ["Домаено тесто", "Крем сир основа", "Печурки", "Кашкавал"],
+    "gr": ["Χειροποίητη ζύμη", "Βάση κρέμας τυριού", "Μανιτάρια", "Τυρί"]
+  },
+  "price": 310,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 52,
+  "category": "pizza",
+  "name": {
+    "en": "Pizza Napolitana",
+    "mk": "Pizza Napolitana",
+    "gr": "Pizza Napolitana"
+  },
+  "description": {
+    "en": "Homemade hand-made dough, tomato sauce, cheese.",
+    "mk": "Домаено рачно изработено тесто, доматен сос, кашкавал.",
+    "gr": "Σπιτική χειροποίητη ζύμη, σάλτσα ντομάτας, τυρί."
+  },
+  "ingredients": {
+    "en": ["Homemade dough", "Tomato sauce", "Cheese"],
+    "mk": ["Домаено тесто", "Доматен сос", "Кашкавал"],
+    "gr": ["Χειροποίητη ζύμη", "Σάλτσα ντομάτας", "Τυρί"]
+  },
+  "price": 300,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 53,
+  "category": "pizza",
+  "name": {
+    "en": "Pizza Peperoni",
+    "mk": "Pizza Peperoni",
+    "gr": "Pizza Peperoni"
+  },
+  "description": {
+    "en": "Homemade hand-made dough, tomato sauce, cheese, pepperoni.",
+    "mk": "Домаено рачно изработено тесто, доматен сос, кашкавал, пеперони.",
+    "gr": "Σπιτική χειροποίητη ζύμη, σάλτσα ντομάτας, τυρί, πεπερόνι."
+  },
+  "ingredients": {
+    "en": ["Homemade dough", "Tomato sauce", "Cheese", "Pepperoni"],
+    "mk": ["Домаено тесто", "Доматен сос", "Кашкавал", "Пеперони"],
+    "gr": ["Χειροποίητη ζύμη", "Σάλτσα ντομάτας", "Τυρί", "Πεπερόνι"]
+  },
+  "price": 340,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["pork"]
+  }
+},
+{
+  "id": 54,
+  "category": "pizza",
+  "name": {
+    "en": "Pizza Manzo",
+    "mk": "Pizza Manzo",
+    "gr": "Pizza Manzo"
+  },
+  "description": {
+    "en": "Bolognese-flavored pizza with onions.",
+    "mk": "Бологнезе вкус со кромид.",
+    "gr": "Πίτσα με γεύση μπολονέζ με κρεμμύδι."
+  },
+  "ingredients": {
+    "en": ["Homemade dough", "Bolognese sauce", "Onion", "Cheese"],
+    "mk": ["Домаено тесто", "Бологнезе сос", "Кромид", "Кашкавал"],
+    "gr": ["Χειροποίητη ζύμη", "Σάλτσα μπολονέζ", "Κρεμμύδι", "Τυρί"]
+  },
+  "price": 350,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 55,
+  "category": "pizza",
+  "name": {
+    "en": "Pizza Capricciosa",
+    "mk": "Pizza Capricciosa",
+    "gr": "Pizza Capricciosa"
+  },
+  "description": {
+    "en": "Classic Capricciosa pizza.",
+    "mk": "Класична Капричоза пица.",
+    "gr": "Κλασική πίτσα Καπριτσιόζα."
+  },
+  "ingredients": {
+    "en": ["Homemade dough", "Tomato sauce", "Cheese", "Ham", "Mushrooms", "Artichokes", "Olives"],
+    "mk": ["Домаено тесто", "Доматен сос", "Кашкавал", "Шунка", "Печурки", "Артичоки", "Маслинки"],
+    "gr": ["Χειροποίητη ζύμη", "Σάλτσα ντομάτας", "Τυρί", "Ζαμπόν", "Μανιτάρια", "Αγκινάρες", "Ελιές"]
+  },
+  "price": 320,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 56,
+  "category": "pizza",
+  "name": {
+    "en": "Veggie Pizza",
+    "mk": "Veggie Pizza",
+    "gr": "Veggie Pizza"
+  },
+  "description": {
+    "en": "Pizza with tomato sauce, cheese, and mixed vegetables.",
+    "mk": "Пица со доматен сос, кашкавал и мешан зеленчук.",
+    "gr": "Πίτσα με σάλτσα ντομάτας, τυρί και ανάμεικτα λαχανικά."
+  },
+  "ingredients": {
+    "en": ["Tomato sauce", "Cheese", "Mixed vegetables"],
+    "mk": ["Доматен сос", "Кашкавал", "Мешан зеленчук"],
+    "gr": ["Σάλτσα ντομάτας", "Τυρί", "Ανάμεικτα λαχανικά"]
+  },
+  "price": 310,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": true,
+    "meat": []
+  }
+},
+{
+  "id": 57,
+  "category": "pizza",
+  "name": {
+    "en": "Pizza BBQ Chicken",
+    "mk": "Pizza BBQ Chicken",
+    "gr": "Pizza BBQ Chicken"
+  },
+  "description": {
+    "en": "BBQ sauce, tomato sauce, chicken, cheese, and vegetables.",
+    "mk": "BBQ сос, доматен сос, пилешко, кашкавал и зеленчук.",
+    "gr": "Σάλτσα BBQ, σάλτσα ντομάτας, κοτόπουλο, τυρί και λαχανικά."
+  },
+  "ingredients": {
+    "en": ["BBQ sauce", "Tomato sauce", "Chicken", "Cheese", "Vegetables"],
+    "mk": ["BBQ сос", "Доматен сос", "Пилешко", "Кашкавал", "Зеленчук"],
+    "gr": ["Σάλτσα BBQ", "Σάλτσα ντομάτας", "Κοτόπουλο", "Τυρί", "Λαχανικά"]
+  },
+  "price": 350,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 58,
+  "category": "salads",
+  "name": {
+    "en": "Caesar",
+    "mk": "Caesar",
+    "gr": "Caesar"
+  },
+  "description": {
+    "en": "Classic Caesar salad. Can add mushrooms or bacon.",
+    "mk": "Класичен Цезар. Може да се додадат печурки или сланина.",
+    "gr": "Κλασική σαλάτα Caesar. Μπορείτε να προσθέσετε μανιτάρια ή μπέικον."
+  },
+  "ingredients": {
+    "en": ["Lettuce", "Chicken", "Cheese", "Ranch sauce", "Croutons"],
+    "mk": ["Марула", "Пилешко", "Кашкавал", "Ранч сос", "Кубети"],
+    "gr": ["Μαρούλι", "Κοτόπουλο", "Τυρί", "Σως ράντς", "Κρουτόν"]
+  },
+  "price": 230,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 59,
+  "category": "salads",
+  "name": {
+    "en": "Fiesta",
+    "mk": "Fiesta",
+    "gr": "Fiesta"
+  },
+  "description": {
+    "en": "Lettuce, roasted chicken, tomato, chicken, parsley, fried tortilla, spicy ranch dressing.",
+    "mk": "Марула, печено пилешко, домат, пилешко, магданос, пржена тортила, зачинет ранч сос.",
+    "gr": "Μαρούλι, ψητό κοτόπουλο, ντομάτα, κοτόπουλο, μαϊντανός, τηγανητή τορτίγια, πικάντικη σως ράντς."
+  },
+  "ingredients": {
+    "en": ["Lettuce", "Roasted chicken", "Tomato", "Chicken", "Parsley", "Fried tortilla", "Spicy ranch dressing"],
+    "mk": ["Марула", "Печено пилешко", "Домат", "Пилешко", "Магданос", "Пржена тортила", "Зачинет ранч сос"],
+    "gr": ["Μαρούλι", "Ψητό κοτόπουλο", "Ντομάτα", "Κοτόπουλο", "Μαϊντανός", "Τηγανητή τορτίγια", "Πικάντικη σως ράντς"]
+  },
+  "price": 230,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 60,
+  "category": "salads",
+  "name": {
+    "en": "Tuna Salad",
+    "mk": "Tuna Salad",
+    "gr": "Tuna Salad"
+  },
+  "description": {
+    "en": "Lettuce, mixed vegetables, roasted chicken, pumpkin seeds, tuna, limonchelo dressing.",
+    "mk": "Марула, мешан зеленчук, печено пилешко, семки од тиква, туна, лимончело сос.",
+    "gr": "Μαρούλι, ανάμεικτα λαχανικά, ψητό κοτόπουλο, σπόροι κολοκύθας, τόνος, σως Limonchelo."
+  },
+  "ingredients": {
+    "en": ["Lettuce", "Mixed vegetables", "Roasted chicken", "Pumpkin seeds", "Tuna", "Limonchelo dressing"],
+    "mk": ["Марула", "Мешан зеленчук", "Печено пилешко", "Семки од тиква", "Туна", "Лимончело сос"],
+    "gr": ["Μαρούλι", "Ανάμεικτα λαχανικά", "Ψητό κοτόπουλο", "Σπόροι κολοκύθας", "Τόνος", "Σως Limonchelo"]
+  },
+  "price": 250,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 61,
+  "category": "salads",
+  "name": {
+    "en": "Spicy Verde",
+    "mk": "Spicy Verde",
+    "gr": "Spicy Verde"
+  },
+  "description": {
+    "en": "Green mix, sautéed vegetables, parmesan, verde ranch dressing. Can add chicken or bacon.",
+    "mk": "Зелен микс, сотеан зеленчук, пармезан, верде ранч сос. Може да се додаде пилешко или сланина.",
+    "gr": "Πράσινο μείγμα, σοταρισμένα λαχανικά, παρμεζάνα, σως verde ranch. Μπορείτε να προσθέσετε κοτόπουλο ή μπέικον."
+  },
+  "ingredients": {
+    "en": ["Green mix", "Sautéed vegetables", "Parmesan", "Verde ranch dressing", "Optional: Chicken or bacon"],
+    "mk": ["Зелен микс", "Сотеан зеленчук", "Пармезан", "Верде ранч сос", "Опционално: Пилешко или сланина"],
+    "gr": ["Πράσινο μείγμα", "Σοταρισμένα λαχανικά", "Παρμεζάνα", "Σως Verde ranch", "Προαιρετικά: Κοτόπουλο ή μπέικον"]
+  },
+  "price": 210,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 62,
+  "category": "sweets",
+  "name": {
+    "en": "Lotus Crepe",
+    "mk": "Lotus Crepe",
+    "gr": "Lotus Crepe"
+  },
+  "description": {
+    "en": "Crepe with banana, chocolate cream, and little bits of crackers on top.",
+    "mk": "Креп со банана, чоколаден крем и мали парчиња крекер на врвот.",
+    "gr": "Κρέπ με μπανάνα, κρεμ σοκολάτας και μικρά κομμάτια κράκερ από πάνω."
+  },
+  "ingredients": {
+    "en": ["Crepe", "Banana", "Chocolate cream", "Cracker bits"],
+    "mk": ["Креп", "Банана", "Чоколаден крем", "Парчиња крекер"],
+    "gr": ["Κρέπ", "Μπανάνα", "Κρέμα σοκολάτας", "Κομμάτια κράκερ"]
+  },
+  "price": 150,
+  "image": "assets/exampleIMG.jpg",
+  "available": true
+},
+{
+  "id": 63,
+  "category": "sweets",
+  "name": {
+    "en": "Cookie",
+    "mk": "Cookie",
+    "gr": "Cookie"
+  },
+  "description": {
+    "en": "Delicious cookie with Belgian chocolate.",
+    "mk": "Вкусен колач со белгиска чоколада.",
+    "gr": "Νόστιμο μπισκότο με Βελγική σοκολάτα."
+  },
+  "ingredients": {
+    "en": ["Cookie", "Belgian chocolate"],
+    "mk": ["Куки", "Белгиска чоколада"],
+    "gr": ["Μπισκότο", "Βελγική σοκολάτα"]
+  },
+  "price": 50,
+  "image": "assets/exampleIMG.jpg",
+  "available": true
+},
+{
+  "id": 64,
+  "category": "sweets",
+  "name": {
+    "en": "Choco Brownie",
+    "mk": "Choco Brownie",
+    "gr": "Choco Brownie"
+  },
+  "description": {
+    "en": "Chocolate fudge brownie.",
+    "mk": "Чоколаден фадж.",
+    "gr": "Σοκολατένιο φάντζ."
+  },
+  "ingredients": {
+    "en": ["Chocolate fudge"],
+    "mk": ["Чоколаден фадж"],
+    "gr": ["Σοκολατένιο φάντζ"]
+  },
+  "price": 70,
+  "image": "assets/exampleIMG.jpg",
+  "available": false
+},
+{
+  "id": 65,
+  "category": "sweets",
+  "name": {
+    "en": "Caramel Muffin",
+    "mk": "Caramel Muffin",
+    "gr": "Caramel Muffin"
+  },
+  "description": {
+    "en": "Vanilla muffin filled with caramel.",
+    "mk": "Ванила мафин полнет со карамела.",
+    "gr": "Μάφιν βανίλιας γεμιστό με καραμέλα."
+  },
+  "ingredients": {
+    "en": ["Vanilla muffin", "Caramel"],
+    "mk": ["Ванила мафин", "Карамела"],
+    "gr": ["Μάφιν βανίλιας", "Καραμέλα"]
+  },
+  "price": 70,
+  "image": "assets/exampleIMG.jpg",
+  "available": false
+},
+{
+  "id": 66,
+  "category": "sweets",
+  "name": {
+    "en": "Chocolate Muffin",
+    "mk": "Chocolate Muffin",
+    "gr": "Chocolate Muffin"
+  },
+  "description": {
+    "en": "Vanilla muffin filled with chocolate.",
+    "mk": "Ванила мафин полнет со чоколадо.",
+    "gr": "Μάφιν βανίλιας γεμιστό με σοκολάτα."
+  },
+  "ingredients": {
+    "en": ["Vanilla muffin", "Chocolate"],
+    "mk": ["Ванила мафин", "Чоколадо"],
+    "gr": ["Μάφιν βανίλιας", "Σοκολάτα"]
+  },
+  "price": 70,
+  "image": "assets/exampleIMG.jpg",
+  "available": false
+},
+{
+  "id": 67,
+  "category": "sweets",
+  "name": {
+    "en": "Dubai Muffin",
+    "mk": "Dubai Muffin",
+    "gr": "Dubai Muffin"
+  },
+  "description": {
+    "en": "Chocolate muffin with pistachio cream and kadaif.",
+    "mk": "Чоко мафин со пистаќио крем и кадаиф.",
+    "gr": "Σοκολατένιο μάφιν με κρέμα φιστικιού και κανταΐφ."
+  },
+  "ingredients": {
+    "en": ["Chocolate brownie", "Pistachio cream", "Kadaif"],
+    "mk": ["Чоко брауни", "Пистаќио крем", "Кадаиф"],
+    "gr": ["Σοκολατένιο μπράουνι", "Κρέμα φιστικιού", "Κανταΐφ"]
+  },
+  "price": 100,
+  "image": "assets/exampleIMG.jpg",
+  "available": false
+},
+{
+  "id": 68,
+  "category": "sweets",
+  "name": {
+    "en": "Dubai Srce",
+    "mk": "Dubai Srce",
+    "gr": "Dubai Srce"
+  },
+  "description": {
+    "en": "Basic dessert 120g with Belgian chocolate, pistachio cream, and kadaif.",
+    "mk": "Базичен десерт 120г со белгиска чоколада, пистаќио крем и кадаиф.",
+    "gr": "Βασικό επιδόρπιο 120γρ με Βελγική σοκολάτα, κρέμα φιστικιού και κανταΐφ."
+  },
+  "ingredients": {
+    "en": ["Belgian chocolate", "Pistachio cream", "Kadaif"],
+    "mk": ["Белгиска чоколада", "Пистаќио крем", "Кадаиф"],
+    "gr": ["Βελγική σοκολάτα", "Κρέμα φιστικιού", "Κανταΐφ"]
+  },
+  "price": 200,
+  "image": "assets/exampleIMG.jpg",
+  "available": true
+},
+{
+  "id": 70,
+  "category": "extras",
+  "name": {
+    "en": "Chilly Oil",
+    "mk": "Chilly Oil",
+    "gr": "Chilly Oil"
+  },
+  "description": {
+    "en": "Garlic infused chilly oil, 200ml.",
+    "mk": "Чесново масло со пиперка, 200ml.",
+    "gr": "Λάδι με σκόρδο και πιπεριά, 200ml."
+  },
+  "ingredients": {
+    "en": [],
+    "mk": [],
+    "gr": []
+  },
+  "price": 150,
+  "image": "assets/exampleIMG.jpg",
+  "available": true
+},
+{
+  "id": 71,
+  "category": "extras",
+  "name": {
+    "en": "Golem Pomfrit",
+    "mk": "Golem Pomfrit",
+    "gr": "Golem Pomfrit"
+  },
+  "description": {
+    "en": "Large portion of fries.",
+    "mk": "Голема порција помфрит.",
+    "gr": "Μεγάλη μερίδα πατάτες τηγανιτές."
+  },
+  "ingredients": {
+    "en": [],
+    "mk": [],
+    "gr": []
+  },
+  "price": 160,
+  "image": "assets/exampleIMG.jpg",
+  "available": true
+},
+{
+  "id": 72,
+  "category": "extras",
+  "name": {
+    "en": "Sreden Pomfrit",
+    "mk": "Sreden Pomfrit",
+    "gr": "Sreden Pomfrit"
+  },
+  "description": {
+    "en": "Medium portion of fries.",
+    "mk": "Средна порција помфрит.",
+    "gr": "Μεσαία μερίδα πατάτες τηγανιτές."
+  },
+  "ingredients": {
+    "en": [],
+    "mk": [],
+    "gr": []
+  },
+  "price": 60,
+  "image": "assets/exampleIMG.jpg",
+  "available": true
+},
+{
+  "id": 73,
+  "category": "extras",
+  "name": {
+    "en": "Mal Pomfrit",
+    "mk": "Mal Pomfrit",
+    "gr": "Mal Pomfrit"
+  },
+  "description": {
+    "en": "Small portion of fries.",
+    "mk": "Мала порција помфрит.",
+    "gr": "Μικρή μερίδα πατάτες τηγανιτές."
+  },
+  "ingredients": {
+    "en": [],
+    "mk": [],
+    "gr": []
+  },
+  "price": 40,
+  "image": "assets/exampleIMG.jpg",
+  "available": true
+},
+{
+  "id": 74,
+  "category": "extras",
+  "name": {
+    "en": "Sauce Cup",
+    "mk": "Sauce Cup",
+    "gr": "Sauce Cup"
+  },
+  "description": {
+    "en": "Choose from the sauces below.",
+    "mk": "Изберете од следниве сосови.",
+    "gr": "Επιλέξτε από τις παρακάτω σάλτσες."
+  },
+  "ingredients": {
+    "en": ["BBQ Mayo", "Ranch", "Sweet & Spicy", "Spicy", "Veggie", "Shrooms", "Caesar", "Fiesta", "Burger Sauce"],
+    "mk": ["BBQ Mayo", "Ranch", "Sweet & Spicy", "Spicy", "Veggie", "Shrooms", "Caesar", "Fiesta", "Burger Sauce"],
+    "gr": ["BBQ Mayo", "Ranch", "Sweet & Spicy", "Spicy", "Veggie", "Shrooms", "Caesar", "Fiesta", "Burger Sauce"]
+  },
+  "price": 30,
+  "image": "assets/exampleIMG.jpg",
+  "available": true
+},
+{
+  "id": 75,
+  "category": "tortillas",
+  "name": {
+    "en": "Bacon Burrito",
+    "mk": "Bacon Burrito",
+    "gr": "Bacon Burrito"
+  },
+  "description": {
+    "en": "Burrito with eggs, bacon, sautéed vegetables, grilled chicken, lettuce, creamy spread, and fries.",
+    "mk": "Бурито со јајца, сланина, сотирани зеленчуци, печенка, марула, млечен намаз и помфрит.",
+    "gr": "Μπουρίτο με αυγά, μπέικον, σοταρισμένα λαχανικά, ψητό κοτόπουλο, μαρούλι, κρεμώδη σάλτσα και πατάτες."
+  },
+  "ingredients": {
+    "en": ["Tortilla", "Eggs", "Bacon", "Sautéed vegetables", "Grilled chicken", "Lettuce", "Creamy spread", "Fries"],
+    "mk": ["Тортила", "Јајца", "Сланина", "Сотирани зеленчуци", "Печенка", "Марула", "Млечен намаз", "Помфрит"],
+    "gr": ["Τορτίγια", "Αυγά", "Μπέικον", "Σοταρισμένα λαχανικά", "Ψητό κοτόπουλο", "Μαρούλι", "Κρεμώδης σάλτσα", "Πατάτες"]
+  },
+  "price": 190,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["pork"]
+  }
+},
+{
+  "id": 76,
+  "category": "tortillas",
+  "name": {
+    "en": "Egg Burrito",
+    "mk": "Egg Burrito",
+    "gr": "Egg Burrito"
+  },
+  "description": {
+    "en": "Burrito with eggs, sautéed vegetables, grilled chicken, spread, lettuce, cheese, and fries.",
+    "mk": "Бурито со јајца, сотирани зеленчуци, печенка, намаз, марула, кашкавал и помфрит.",
+    "gr": "Μπουρίτο με αυγά, σοταρισμένα λαχανικά, ψητό κοτόπουλο, αλείμμα, μαρούλι, τυρί και πατάτες."
+  },
+  "ingredients": {
+    "en": ["Tortilla", "Eggs", "Sautéed vegetables", "Grilled chicken", "Spread", "Lettuce", "Cheese", "Fries"],
+    "mk": ["Тортила", "Јајца", "Сотирани зеленчуци", "Печенка", "Намаз", "Марула", "Кашкавал", "Помфрит"],
+    "gr": ["Τορτίγια", "Αυγά", "Σοταρισμένα λαχανικά", "Ψητό κοτόπουλο", "Άλειμμα", "Μαρούλι", "Τυρί", "Πατάτες"]
+  },
+  "price": 180,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["pork"]
+  }
+},
+{
+  "id": 77,
+  "category": "tortillas",
+  "name": {
+    "en": "Caeser Burrito",
+    "mk": "Caeser Burrito",
+    "gr": "Caeser Burrito"
+  },
+  "description": {
+    "en": "Wrapped Caesar salad, top seller.",
+    "mk": "Завиткана Цезар салата, топ селер.",
+    "gr": "Τυλιγμένη σαλάτα Caesar, best seller."
+  },
+  "ingredients": {
+    "en": ["Caesar salad ingredients", "Tortilla", "Fries"],
+    "mk": ["Состојки за Цезар салата", "Тортила", "Помфрит"],
+    "gr": ["Συστατικά σαλάτας Caesar", "Τορτίγια", "Πατάτες"]
+  },
+  "price": 190,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 78,
+  "category": "tortillas",
+  "name": {
+    "en": "Omelette Tortilla",
+    "mk": "Omelette Tortilla",
+    "gr": "Omelette Tortilla"
+  },
+  "description": {
+    "en": "Sautéed vegetables, eggs, melted cheese, tomato, tortilla, served with fries.",
+    "mk": "Сотирани зеленчуци, јајца, стопен кашкавал, домат, тортила, сервирано со помфрит.",
+    "gr": "Σοταρισμένα λαχανικά, αυγά, λιωμένο τυρί, ντομάτα, τορτίγια, σερβιρισμένα με πατάτες."
+  },
+  "ingredients": {
+    "en": ["Tortilla", "Sautéed vegetables", "Eggs", "Melted cheese", "Tomato", "Fries"],
+    "mk": ["Тортила", "Сотирани зеленчуци", "Јајца", "Стопен кашкавал", "Домат", "Помфрит"],
+    "gr": ["Τορτίγια", "Σοταρισμένα λαχανικά", "Αυγά", "Λιωμένο τυρί", "Ντομάτα", "Πατάτες"]
+  },
+  "price": 140,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
+},
+{
+  "id": 79,
+  "category": "tortillas",
+  "name": {
+    "en": "Fiesta Burrito",
+    "mk": "Fiesta Burrito",
+    "gr": "Fiesta Burrito"
+  },
+  "description": {
+    "en": "Wrapped Fiesta salad.",
+    "mk": "Завиткана Fiesta салата.",
+    "gr": "Τυλιγμένη σαλάτα Fiesta."
+  },
+  "ingredients": {
+    "en": ["Lettuce", "Chicken", "Grilled chicken", "Tomato", "Cheese", "Fiesta sauce", "Fries"],
+    "mk": ["Марула", "Пилешко", "Печенка", "Домат", "Кашкавал", "Fiesta сос", "Помфрит"],
+    "gr": ["Μαρούλι", "Κοτόπουλο", "Ψητό κοτόπουλο", "Ντομάτα", "Τυρί", "Σάλτσα Fiesta", "Πατάτες"]
+  },
+  "price": 200,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["chicken"]
+  }
+},
+{
+  "id": 80,
+  "category": "tortillas",
+  "name": {
+    "en": "Veggie Burrito",
+    "mk": "Veggie Burrito",
+    "gr": "Veggie Burrito"
+  },
+  "description": {
+    "en": "Burrito with lettuce, mixed vegetables, cheese, and Caesar sauce.",
+    "mk": "Бурито со марула, мешан зеленчук, кашкавал и Цезар сос.",
+    "gr": "Μπουρίτο με μαρούλι, ανάμεικτα λαχανικά, τυρί και σάλτσα Caesar."
+  },
+  "ingredients": {
+    "en": ["Tortilla", "Fries", "Lettuce", "Mixed vegetables", "Cheese", "Caesar sauce"],
+    "mk": ["Тортила", "Помфрит", "Марула", "Мешан зеленчук", "Кашкавал", "Цезар сос"],
+    "gr": ["Τορτίγια", "Πατάτες", "Μαρούλι", "Ανάμεικτα λαχανικά", "Τυρί", "Σάλτσα Caesar"]
+  },
+  "price": 170,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": true,
+    "meat": []
+  }
+},
+{
+  "id": 81,
+  "category": "sandwiches",
+  "name": {
+    "en": "Vege Sandwich",
+    "mk": "Vege Sandwich",
+    "gr": "Vege Sandwich"
+  },
+  "description": {
+    "en": "Spread, cheese, tomato, lettuce, sautéed onion. Cold sandwich.",
+    "mk": "Намаз, кашкавал, домат, марула, пржен кромид. Студен сендвич.",
+    "gr": "Άλειμμα, τυρί, ντομάτα, μαρούλι, σοταρισμένο κρεμμύδι. Κρύο σάντουιτς."
+  },
+  "ingredients": {
+    "en": ["Bread", "Spread", "Cheese", "Tomato", "Lettuce", "Sautéed onion"],
+    "mk": ["Лебче", "Намаз", "Кашкавал", "Домат", "Марула", "Пржен кромид"],
+    "gr": ["Ψωμί", "Άλειμμα", "Τυρί", "Ντομάτα", "Μαρούλι", "Σοταρισμένο κρεμμύδι"]
+  },
+  "price": 150,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": true,
+    "meat": []
+  }
+},
+{
+  "id": 82,
+  "category": "sandwiches",
+  "name": {
+    "en": "Ham Sandwich",
+    "mk": "Ham Sandwich",
+    "gr": "Ham Sandwich"
+  },
+  "description": {
+    "en": "Spread, cheese, ham, lettuce, tomato, sautéed onion. Cold sandwich.",
+    "mk": "Намаз, кашкавал, шунка, марула, домат, пржен кромид. Студен сендвич.",
+    "gr": "Άλειμμα, τυρί, ζαμπόν, μαρούλι, ντομάτα, σοταρισμένο κρεμμύδι. Κρύο σάντουιτς."
+  },
+  "ingredients": {
+    "en": ["Bread", "Spread", "Cheese", "Ham", "Lettuce", "Tomato", "Sautéed onion"],
+    "mk": ["Лебче", "Намаз", "Кашкавал", "Шунка", "Марула", "Домат", "Пржен кромид"],
+    "gr": ["Ψωμί", "Άλειμμα", "Τυρί", "Ζαμπόν", "Μαρούλι", "Ντομάτα", "Σοταρισμένο κρεμμύδι"]
+  },
+  "price": 170,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": ["pork"]
+  }
+},
+{
+  "id": 83,
+  "category": "sandwiches",
+  "name": {
+    "en": "Mortadela Pesto",
+    "mk": "Mortadela Pesto",
+    "gr": "Mortadela Pesto"
+  },
+  "description": {
+    "en": "Spread, cheese, mortadela, pesto, lettuce, tomato. Cold sandwich.",
+    "mk": "Намаз, кашкавал, мортадела, песто, марула, домат. Студен сендвич.",
+    "gr": "Άλειμμα, τυρί, μορταδέλα, πέστο, μαρούλι, ντομάτα. Κρύο σάντουιτς."
+  },
+  "ingredients": {
+    "en": ["Bread", "Spread", "Cheese", "Mortadela", "Pesto", "Lettuce", "Tomato"],
+    "mk": ["Лебче", "Намаз", "Кашкавал", "Мортадела", "Песто", "Марула", "Домат"],
+    "gr": ["Ψωμί", "Άλειμμα", "Τυρί", "Μορταδέλα", "Πέστο", "Μαρούλι", "Ντομάτα"]
+  },
+  "price": 170,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": {
+    "vegan": false,
+    "meat": []
+  }
 }
 ]
 
