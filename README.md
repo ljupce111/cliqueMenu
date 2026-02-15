@@ -29,12 +29,14 @@
 - [ ] on mobile make the scroll bar visible because its good ui and doesnt change the css like on desktop
 - [ ] add shading effect where the categories and filters are
 - [ ] fix modal ui for extras and drinks so when u open the modal it doesnt say ingredients dietary its just the name and price
+- [ ] add correct filters
 
 
 ## Bigger / Complex
 - [ ] Build an admin panel for managing menu items
 - [ ] possible idea to think about make it so on mobile when the user scrolls instead of just passing the item it locks on to the item when the user ligthly scrolls
 - [ ] on mobile add arrows that the user can click and the item to the bottom or top goes to the top of the view point so the user can scroll with the harrows
+
 
 
 
