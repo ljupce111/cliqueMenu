@@ -831,11 +831,7 @@
       "mk": "Освежувачка Coca Cola.",
       "gr": "Αναζωογονητική Coca Cola."
     },
-    "ingredients": {
-      "en": ["Coca Cola"],
-      "mk": ["Coca Cola"],
-      "gr": ["Coca Cola"]
-    },
+    "ingredients": {},
     "price": 70,
     "image": "assets/drinks/coca-cola.png",
     "available": true,
@@ -857,11 +853,7 @@
       "mk": "Без шеќер Coca Cola Zero.",
       "gr": "Χωρίς ζάχαρη Coca Cola Zero."
     },
-    "ingredients": {
-      "en": ["Coca Cola Zero"],
-      "mk": ["Coca Cola Zero"],
-      "gr": ["Coca Cola Zero"]
-    },
+    "ingredients": {},
     "price": 70,
     "image": "assets/drinks/coca-cola-zero.png",
     "available": true,
@@ -883,11 +875,7 @@
       "mk": "Освежувачка портокалова сода.",
       "gr": "Αναζωογονητική πορτοκαλί σόδα."
     },
-    "ingredients": {
-      "en": ["Fanta"],
-      "mk": ["Fanta"],
-      "gr": ["Fanta"]
-    },
+    "ingredients": {},
     "price": 70,
     "image": "assets/drinks/fanta.png",
     "available": true,
@@ -909,11 +897,7 @@
       "mk": "Освежувачка Rosa сода.",
       "gr": "Αναζωογονητική Rosa σόδα."
     },
-    "ingredients": {
-      "en": ["Rosa"],
-      "mk": ["Rosa"],
-      "gr": ["Rosa"]
-    },
+    "ingredients": {},
     "price": 60,
     "image": "assets/drinks/rosa.png",
     "available": true,
@@ -925,21 +909,13 @@
   {
     "id": 21,
     "category": "drinks",
-    "name": {
-      "en": "Schweppes",
-      "mk": "Schweppes",
-      "gr": "Schweppes"
-    },
+    "name": {},
     "description": {
       "en": "Refreshing Schweppes soda.",
       "mk": "Освежувачка Schweppes сода.",
       "gr": "Αναζωογονητική Schweppes σόδα."
     },
-    "ingredients": {
-      "en": ["Schweppes"],
-      "mk": ["Schweppes"],
-      "gr": ["Schweppes"]
-    },
+    "ingredients": {},
     "price": 70,
     "image": "assets/drinks/schweppes.jpg",
     "available": true,
@@ -961,11 +937,7 @@
       "mk": "Освежувачка лимоно-лимета сода.",
       "gr": "Αναζωογονητική λεμόνι-λάιμ σόδα."
     },
-    "ingredients": {
-      "en": ["Sprite"],
-      "mk": ["Sprite"],
-      "gr": ["Sprite"]
-    },
+    "ingredients": {},
     "price": 70,
     "image": "assets/drinks/sprite.png",
     "available": true,
@@ -987,11 +959,7 @@
       "mk": "Ладно кафе Nescafe Frape.",
       "gr": "Κρύος καφές Nescafe Frape."
     },
-    "ingredients": {
-      "en": ["Nescafe Frape"],
-      "mk": ["Nescafe Frape"],
-      "gr": ["Nescafe Frape"]
-    },
+    "ingredients": {},
     "price": 60,
     "image": "assets/drinks/nescafe.jpg",
     "available": true,
@@ -1013,11 +981,7 @@
       "mk": "Освежувачки ладен чај.",
       "gr": "Αναζωογονητικό παγωμένο τσάι."
     },
-    "ingredients": {
-      "en": ["Ice Tea"],
-      "mk": ["Ice Tea"],
-      "gr": ["Ice Tea"]
-    },
+    "ingredients": {},
     "price": 80,
     "image": "assets/drinks/ice-tea.jpg",
     "available": true,

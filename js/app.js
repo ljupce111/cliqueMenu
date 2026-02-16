@@ -117,29 +117,31 @@ function renderCategories() {
   categoriesContainer.innerHTML = "";
 
   CATEGORIES.forEach(cat => {
-    const button = document.createElement("button");
-    button.textContent = CATEGORY_LABELS[cat][currentLang];
-    button.classList.add("category-btn");
+  const button = document.createElement("button");
+  button.textContent = CATEGORY_LABELS[cat][currentLang];
+  button.classList.add("category-btn");
 
-    if (activeCategory === cat) button.classList.add("active");
+  if (activeCategory === cat) button.classList.add("active");
 
-    button.addEventListener("click", () => {
-      activeCategory = cat;
-      renderMenu();
-      renderCategories();
-      renderFoodFilters();
-    });
-    button.addEventListener("click", (e) => {
-  e.target.scrollIntoView({
-    behavior: "smooth",
-    inline: "center",
-      block: "nearest"
+  button.addEventListener("click", () => {
+    // 1️⃣ Set the clicked category
+    activeCategory = cat;
 
-  });
+    // 2️⃣ Reset the filter to "all"
+    activeFilter = "all";
+
+    // 3️⃣ Re-render menu, categories, and filters
+    renderMenu();
+    renderCategories();
+    renderFoodFilters();
+
+    if (menuContainer){
+  window.scrollTo({ top: 0, behavior: "smooth" });
+    }
 });
 
-    categoriesContainer.appendChild(button);
-  });
+  categoriesContainer.appendChild(button);
+});
 }
 
 // -------------------- FOOD FILTERS --------------------
@@ -227,8 +229,13 @@ function openItemModal(item) {
   document.getElementById("modal-img").src = item.image;
   document.getElementById("modal-img").alt = item.name[currentLang];
   document.getElementById("modal-name").textContent = item.name[currentLang];
-  document.getElementById("modal-description").textContent = item.description[currentLang] || "No description available.";
+  document.getElementById("modal-description").textContent =
+    item.description[currentLang] || "No description available.";
 
+  const ingredientsTitle = document.getElementById("ingredients-title");
+  const dietaryTitle = document.getElementById("dietary-info-title");
+
+  // INGREDIENTS
   modalIngredients.innerHTML = "";
   item.ingredients?.[currentLang]?.forEach(ingredient => {
     const p = document.createElement("p");
@@ -236,19 +243,51 @@ function openItemModal(item) {
     modalIngredients.appendChild(p);
   });
 
-  document.getElementById("modal-price").textContent = `${item.price} MKD`;
-  document.getElementById("price-eur").textContent = `€${(item.price / 61.5).toFixed(2)}`;
+  // Hide/show ingredients title
+  if (!modalIngredients.children.length) {
+    ingredientsTitle.style.display = "none";
+  } else {
+    ingredientsTitle.style.display = "block";
+  }
 
+  document.getElementById("modal-price").textContent = `${item.price} MKD`;
+  document.getElementById("price-eur").textContent =
+    `€${(item.price / 61.5).toFixed(2)}`;
+
+  // DIETARY INFO
   const dietaryInfo = document.getElementById("dietary-info");
   dietaryInfo.innerHTML = "";
-  if (item.mealOptions.vegan) dietaryInfo.appendChild(Object.assign(document.createElement("p"), { textContent: "Vegan" }));
-  if (item.mealOptions.vegetarian) dietaryInfo.appendChild(Object.assign(document.createElement("p"), { textContent: "Vegetarian" }));
-  item.mealOptions.meat?.forEach(meatType => {
-    dietaryInfo.appendChild(Object.assign(document.createElement("p"), { textContent: meatType.charAt(0).toUpperCase() + meatType.slice(1) }));
+
+  if (item.mealOptions?.vegan)
+    dietaryInfo.appendChild(
+      Object.assign(document.createElement("p"), { textContent: "Vegan" })
+    );
+
+  if (item.mealOptions?.vegetarian)
+    dietaryInfo.appendChild(
+      Object.assign(document.createElement("p"), { textContent: "Vegetarian" })
+    );
+
+  item.mealOptions?.meat?.forEach(meatType => {
+    dietaryInfo.appendChild(
+      Object.assign(document.createElement("p"), {
+        textContent:
+          meatType.charAt(0).toUpperCase() + meatType.slice(1)
+      })
+    );
   });
 
+  // Hide/show dietary title
+  if (!dietaryInfo.children.length) {
+    dietaryTitle.style.display = "none";
+  } else {
+    dietaryTitle.style.display = "block";
+  }
+
   modal.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
 }
+
 function handleTabletNav() {
   if (!stickyContainer || !nav) return;
 
@@ -272,8 +311,16 @@ function handleTabletNav() {
 }
 
 // -------------------- MODAL CLOSE --------------------
-modalClose.addEventListener("click", () => modal.classList.add("hidden"));
-modal.addEventListener("click", e => { if (e.target === modal) modal.classList.add("hidden"); });
+modalClose.addEventListener("click", () => {
+  modal.classList.add("hidden");
+  document.body.style.overflow = "";
+});
+modal.addEventListener("click", e => { 
+  if (e.target === modal) {
+    modal.classList.add("hidden")
+    document.body.style.overflow = "";
+  }; 
+});
 
 // -------------------- LANGUAGE SWITCH --------------------
 langButtons.forEach(btn => {
@@ -329,4 +376,9 @@ window.addEventListener("scroll", () => {
 scrollBtn.addEventListener("click", (e) => {
   e.preventDefault();
   window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+storeButton.addEventListener('click', function(e) {
+  e.preventDefault(); // ✅ stop scrolling to top
+  storeModal.classList.remove('hidden'); // open the module
 });
