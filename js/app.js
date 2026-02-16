@@ -9,6 +9,8 @@ const storeModal = document.getElementById("storeModal")
 const storeButton = document.getElementById('storeIcon');
 const storeModalContent = storeModal.querySelector(".store-modal-content"); // single element
 
+const scrollBtn = document.getElementById("scrollTopBtn");
+
 storeButton.addEventListener('click', () => {
   storeModal.classList.remove('hidden');
 });
@@ -177,14 +179,18 @@ function renderMenu() {
 
     // Apply filter
     if (activeFilter !== "all") {
-      itemsInCategory = itemsInCategory.filter(item => {
-        if (activeFilter === "vegan") return item.mealOptions.vegan;
-        if (["beef", "chicken", "pork", "seafood"].includes(activeFilter)) {
-          return item.mealOptions.meat?.includes(activeFilter);
-        }
-        return true;
-      });
+  itemsInCategory = itemsInCategory.filter(item => {
+
+    // Vegan filter
+    if (activeFilter === "vegan") {
+      return item.mealOptions?.vegan === true;
     }
+
+    // Any meat type filter (chicken, pork, beef, seafood, future types)
+    return item.mealOptions?.meat?.includes(activeFilter);
+
+  });
+}
 
     if (itemsInCategory.length === 0) return;
 
@@ -246,7 +252,7 @@ function openItemModal(item) {
 function handleTabletNav() {
   if (!stickyContainer || !nav) return;
 
-  if (window.innerWidth <= 1024) {
+  if (window.innerWidth <= 768) {
     // Tablet: move nav outside sticky-container if not already
     if (nav.parentElement === stickyContainer) {
       stickyContainer.parentNode.insertBefore(nav, stickyContainer.nextSibling);
@@ -313,3 +319,14 @@ handleTabletNav();
 
 // Run on window resize
 window.addEventListener('resize', handleTabletNav);
+window.addEventListener("scroll", () => {
+ if (window.scrollY > 300) {       // 300px from top
+    scrollBtn.classList.add("show");
+  } else {
+    scrollBtn.classList.remove("show");
+  }
+});
+scrollBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});

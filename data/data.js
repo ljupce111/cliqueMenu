@@ -29,15 +29,16 @@ export const CATEGORY_LABELS = {
 export const FILTER_LABELS = {
   all: { en: "All", mk: "Сите", gr: "Όλα" },
   vegan: { en: "Vegan", mk: "Веган", gr: "Χορτοφαγικό" },
-  meat: { en: "Meat", mk: "Месо", gr: "Κρέας" },
   chicken: { en: "Chicken", mk: "Пилешко", gr: "Κοτόπουλο" },
+  pork: { en: "Pork", mk: "Свинско", gr: "Χοιρινό" },
   beef: { en: "Beef", mk: "Говедско", gr: "Μοσχάρι" }
 };
+
 export const FOOD_FILTERS = [
   { key: "all" },
   { key: "vegan" },
-  { key: "meat" },
   { key: "chicken" },
+  { key: "pork" },
   { key: "beef" }
 ];
 export const noItemsText = {

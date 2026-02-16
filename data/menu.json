@@ -1565,7 +1565,7 @@
   "available": true,
   "mealOptions": {
     "vegan": false,
-    "meat": ["beef"]
+    "meat": []
   }
 },
 {
@@ -2082,7 +2082,8 @@
   },
   "price": 150,
   "image": "assets/exampleIMG.jpg",
-  "available": true
+  "available": true,
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 63,
@@ -2104,7 +2105,8 @@
   },
   "price": 50,
   "image": "assets/exampleIMG.jpg",
-  "available": true
+  "available": true,
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 64,
@@ -2126,7 +2128,8 @@
   },
   "price": 70,
   "image": "assets/exampleIMG.jpg",
-  "available": false
+  "available": false,
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 65,
@@ -2148,7 +2151,8 @@
   },
   "price": 70,
   "image": "assets/exampleIMG.jpg",
-  "available": false
+  "available": false,
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 66,
@@ -2170,7 +2174,8 @@
   },
   "price": 70,
   "image": "assets/exampleIMG.jpg",
-  "available": false
+  "available": false,
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 67,
@@ -2192,7 +2197,8 @@
   },
   "price": 100,
   "image": "assets/exampleIMG.jpg",
-  "available": false
+  "available": false,
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 68,
@@ -2214,104 +2220,73 @@
   },
   "price": 200,
   "image": "assets/exampleIMG.jpg",
-  "available": true
+  "available": true,
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 70,
   "category": "extras",
-  "name": {
-    "en": "Chilly Oil",
-    "mk": "Chilly Oil",
-    "gr": "Chilly Oil"
-  },
+  "name": { "en": "Chilly Oil", "mk": "Chilly Oil", "gr": "Chilly Oil" },
   "description": {
     "en": "Garlic infused chilly oil, 200ml.",
     "mk": "Чесново масло со пиперка, 200ml.",
     "gr": "Λάδι με σκόρδο και πιπεριά, 200ml."
   },
-  "ingredients": {
-    "en": [],
-    "mk": [],
-    "gr": []
-  },
+  "ingredients": { "en": [], "mk": [], "gr": [] },
   "price": 150,
   "image": "assets/exampleIMG.jpg",
-  "available": true
+  "available": true,
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 71,
   "category": "extras",
-  "name": {
-    "en": "Golem Pomfrit",
-    "mk": "Golem Pomfrit",
-    "gr": "Golem Pomfrit"
-  },
+  "name": { "en": "Golem Pomfrit", "mk": "Golem Pomfrit", "gr": "Golem Pomfrit" },
   "description": {
     "en": "Large portion of fries.",
     "mk": "Голема порција помфрит.",
     "gr": "Μεγάλη μερίδα πατάτες τηγανιτές."
   },
-  "ingredients": {
-    "en": [],
-    "mk": [],
-    "gr": []
-  },
+  "ingredients": { "en": [], "mk": [], "gr": [] },
   "price": 160,
   "image": "assets/exampleIMG.jpg",
-  "available": true
+  "available": true,
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 72,
   "category": "extras",
-  "name": {
-    "en": "Sreden Pomfrit",
-    "mk": "Sreden Pomfrit",
-    "gr": "Sreden Pomfrit"
-  },
+  "name": { "en": "Sreden Pomfrit", "mk": "Sreden Pomfrit", "gr": "Sreden Pomfrit" },
   "description": {
     "en": "Medium portion of fries.",
     "mk": "Средна порција помфрит.",
     "gr": "Μεσαία μερίδα πατάτες τηγανιτές."
   },
-  "ingredients": {
-    "en": [],
-    "mk": [],
-    "gr": []
-  },
+  "ingredients": { "en": [], "mk": [], "gr": [] },
   "price": 60,
   "image": "assets/exampleIMG.jpg",
-  "available": true
+  "available": true,
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 73,
   "category": "extras",
-  "name": {
-    "en": "Mal Pomfrit",
-    "mk": "Mal Pomfrit",
-    "gr": "Mal Pomfrit"
-  },
+  "name": { "en": "Mal Pomfrit", "mk": "Mal Pomfrit", "gr": "Mal Pomfrit" },
   "description": {
     "en": "Small portion of fries.",
     "mk": "Мала порција помфрит.",
     "gr": "Μικρή μερίδα πατάτες τηγανιτές."
   },
-  "ingredients": {
-    "en": [],
-    "mk": [],
-    "gr": []
-  },
+  "ingredients": { "en": [], "mk": [], "gr": [] },
   "price": 40,
   "image": "assets/exampleIMG.jpg",
-  "available": true
+  "available": true,
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 74,
   "category": "extras",
-  "name": {
-    "en": "Sauce Cup",
-    "mk": "Sauce Cup",
-    "gr": "Sauce Cup"
-  },
+  "name": { "en": "Sauce Cup", "mk": "Sauce Cup", "gr": "Sauce Cup" },
   "description": {
     "en": "Choose from the sauces below.",
     "mk": "Изберете од следниве сосови.",
@@ -2324,46 +2299,36 @@
   },
   "price": 30,
   "image": "assets/exampleIMG.jpg",
-  "available": true
-},
-{
-  "id": 75,
-  "category": "tortillas",
-  "name": {
-    "en": "Bacon Burrito",
-    "mk": "Bacon Burrito",
-    "gr": "Bacon Burrito"
-  },
-  "description": {
-    "en": "Burrito with eggs, bacon, sautéed vegetables, grilled chicken, lettuce, creamy spread, and fries.",
-    "mk": "Бурито со јајца, сланина, сотирани зеленчуци, печенка, марула, млечен намаз и помфрит.",
-    "gr": "Μπουρίτο με αυγά, μπέικον, σοταρισμένα λαχανικά, ψητό κοτόπουλο, μαρούλι, κρεμώδη σάλτσα και πατάτες."
-  },
-  "ingredients": {
-    "en": ["Tortilla", "Eggs", "Bacon", "Sautéed vegetables", "Grilled chicken", "Lettuce", "Creamy spread", "Fries"],
-    "mk": ["Тортила", "Јајца", "Сланина", "Сотирани зеленчуци", "Печенка", "Марула", "Млечен намаз", "Помфрит"],
-    "gr": ["Τορτίγια", "Αυγά", "Μπέικον", "Σοταρισμένα λαχανικά", "Ψητό κοτόπουλο", "Μαρούλι", "Κρεμώδης σάλτσα", "Πατάτες"]
-  },
-  "price": 190,
-  "image": "assets/exampleIMG.jpg",
   "available": true,
-  "mealOptions": {
-    "vegan": false,
-    "meat": ["pork"]
-  }
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 76,
   "category": "tortillas",
-  "name": {
-    "en": "Egg Burrito",
-    "mk": "Egg Burrito",
-    "gr": "Egg Burrito"
-  },
+  "name": { "en": "Bacon Burrito", "mk": "Bacon Burrito", "gr": "Bacon Burrito" },
   "description": {
-    "en": "Burrito with eggs, sautéed vegetables, grilled chicken, spread, lettuce, cheese, and fries.",
+    "en": "Burrito with eggs, bacon, sautéed vegetables, grilled chicken, lettuce, creamy spread and fries.",
+    "mk": "Бурито со јајца, сланина, сотирани зеленчуци, печенка, марула, млечен намаз и помфрит.",
+    "gr": "Μπουρίτο με αυγά, μπέικον, σοταρισμένα λαχανικά, ψητό κοτόπουλο, μαρούλι, κρεμώδες άλειμμα και πατάτες."
+  },
+  "ingredients": {
+    "en": ["Tortilla", "Eggs", "Bacon", "Sautéed vegetables", "Grilled chicken", "Lettuce", "Creamy spread", "Fries"],
+    "mk": ["Тортила", "Јајца", "Сланина", "Сотирани зеленчуци", "Печенка", "Марула", "Млечен намаз", "Помфрит"],
+    "gr": ["Τορτίγια", "Αυγά", "Μπέικον", "Σοταρισμένα λαχανικά", "Ψητό κοτόπουλο", "Μαρούλι", "Κρεμώδες άλειμμα", "Πατάτες"]
+  },
+  "price": 190,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": { "vegan": false, "meat": ["pork", "chicken"] }
+},
+{
+  "id": 77,
+  "category": "tortillas",
+  "name": { "en": "Egg Burrito", "mk": "Egg Burrito", "gr": "Egg Burrito" },
+  "description": {
+    "en": "Burrito with eggs, sautéed vegetables, grilled chicken, spread, lettuce, cheese and fries.",
     "mk": "Бурито со јајца, сотирани зеленчуци, печенка, намаз, марула, кашкавал и помфрит.",
-    "gr": "Μπουρίτο με αυγά, σοταρισμένα λαχανικά, ψητό κοτόπουλο, αλείμμα, μαρούλι, τυρί και πατάτες."
+    "gr": "Μπουρίτο με αυγά, σοταρισμένα λαχανικά, ψητό κοτόπουλο, άλειμμα, μαρούλι, τυρί και πατάτες."
   },
   "ingredients": {
     "en": ["Tortilla", "Eggs", "Sautéed vegetables", "Grilled chicken", "Spread", "Lettuce", "Cheese", "Fries"],
@@ -2373,127 +2338,92 @@
   "price": 180,
   "image": "assets/exampleIMG.jpg",
   "available": true,
-  "mealOptions": {
-    "vegan": false,
-    "meat": ["pork"]
-  }
-},
-{
-  "id": 77,
-  "category": "tortillas",
-  "name": {
-    "en": "Caeser Burrito",
-    "mk": "Caeser Burrito",
-    "gr": "Caeser Burrito"
-  },
-  "description": {
-    "en": "Wrapped Caesar salad, top seller.",
-    "mk": "Завиткана Цезар салата, топ селер.",
-    "gr": "Τυλιγμένη σαλάτα Caesar, best seller."
-  },
-  "ingredients": {
-    "en": ["Caesar salad ingredients", "Tortilla", "Fries"],
-    "mk": ["Состојки за Цезар салата", "Тортила", "Помфрит"],
-    "gr": ["Συστατικά σαλάτας Caesar", "Τορτίγια", "Πατάτες"]
-  },
-  "price": 190,
-  "image": "assets/exampleIMG.jpg",
-  "available": true,
-  "mealOptions": {
-    "vegan": false,
-    "meat": ["chicken"]
-  }
+  "mealOptions": { "vegan": false, "meat": ["chicken"] }
 },
 {
   "id": 78,
   "category": "tortillas",
-  "name": {
-    "en": "Omelette Tortilla",
-    "mk": "Omelette Tortilla",
-    "gr": "Omelette Tortilla"
-  },
+  "name": { "en": "Caesar Burrito", "mk": "Caesar Burrito", "gr": "Caesar Burrito" },
   "description": {
-    "en": "Sautéed vegetables, eggs, melted cheese, tomato, tortilla, served with fries.",
-    "mk": "Сотирани зеленчуци, јајца, стопен кашкавал, домат, тортила, сервирано со помфрит.",
-    "gr": "Σοταρισμένα λαχανικά, αυγά, λιωμένο τυρί, ντομάτα, τορτίγια, σερβιρισμένα με πατάτες."
+    "en": "Wrapped Caesar salad with tortilla and fries.",
+    "mk": "Завиткана Цезар салата со тортила и помфрит.",
+    "gr": "Τυλιγμένη σαλάτα Caesar με τορτίγια και πατάτες."
   },
   "ingredients": {
-    "en": ["Tortilla", "Sautéed vegetables", "Eggs", "Melted cheese", "Tomato", "Fries"],
-    "mk": ["Тортила", "Сотирани зеленчуци", "Јајца", "Стопен кашкавал", "Домат", "Помфрит"],
-    "gr": ["Τορτίγια", "Σοταρισμένα λαχανικά", "Αυγά", "Λιωμένο τυρί", "Ντομάτα", "Πατάτες"]
+    "en": ["Tortilla", "Lettuce", "Caesar sauce", "Chicken", "Cheese", "Fries"],
+    "mk": ["Тортила", "Марула", "Цезар сос", "Пилешко", "Кашкавал", "Помфрит"],
+    "gr": ["Τορτίγια", "Μαρούλι", "Σάλτσα Caesar", "Κοτόπουλο", "Τυρί", "Πατάτες"]
   },
-  "price": 140,
+  "price": 190,
   "image": "assets/exampleIMG.jpg",
   "available": true,
-  "mealOptions": {
-    "vegan": false,
-    "meat": []
-  }
+  "mealOptions": { "vegan": false, "meat": ["chicken"] }
 },
 {
   "id": 79,
   "category": "tortillas",
-  "name": {
-    "en": "Fiesta Burrito",
-    "mk": "Fiesta Burrito",
-    "gr": "Fiesta Burrito"
-  },
+  "name": { "en": "Omelette Tortilla", "mk": "Omelette Tortilla", "gr": "Omelette Tortilla" },
   "description": {
-    "en": "Wrapped Fiesta salad.",
-    "mk": "Завиткана Fiesta салата.",
-    "gr": "Τυλιγμένη σαλάτα Fiesta."
+    "en": "Sautéed vegetables, eggs, melted cheese and tomato wrapped in tortilla.",
+    "mk": "Сотирани зеленчуци, јајца, стопен кашкавал и домат во тортила.",
+    "gr": "Σοταρισμένα λαχανικά, αυγά, λιωμένο τυρί και ντομάτα σε τορτίγια."
   },
   "ingredients": {
-    "en": ["Lettuce", "Chicken", "Grilled chicken", "Tomato", "Cheese", "Fiesta sauce", "Fries"],
-    "mk": ["Марула", "Пилешко", "Печенка", "Домат", "Кашкавал", "Fiesta сос", "Помфрит"],
-    "gr": ["Μαρούλι", "Κοτόπουλο", "Ψητό κοτόπουλο", "Ντομάτα", "Τυρί", "Σάλτσα Fiesta", "Πατάτες"]
+    "en": ["Tortilla", "Sautéed vegetables", "Eggs", "Melted cheese", "Tomato"],
+    "mk": ["Тортила", "Сотирани зеленчуци", "Јајца", "Стопен кашкавал", "Домат"],
+    "gr": ["Τορτίγια", "Σοταρισμένα λαχανικά", "Αυγά", "Λιωμένο τυρί", "Ντομάτα"]
   },
-  "price": 200,
+  "price": 140,
   "image": "assets/exampleIMG.jpg",
   "available": true,
-  "mealOptions": {
-    "vegan": false,
-    "meat": ["chicken"]
-  }
+  "mealOptions": { "vegan": false, "meat": [] }
 },
 {
   "id": 80,
   "category": "tortillas",
-  "name": {
-    "en": "Veggie Burrito",
-    "mk": "Veggie Burrito",
-    "gr": "Veggie Burrito"
-  },
+  "name": { "en": "Fiesta Burrito", "mk": "Fiesta Burrito", "gr": "Fiesta Burrito" },
   "description": {
-    "en": "Burrito with lettuce, mixed vegetables, cheese, and Caesar sauce.",
-    "mk": "Бурито со марула, мешан зеленчук, кашкавал и Цезар сос.",
-    "gr": "Μπουρίτο με μαρούλι, ανάμεικτα λαχανικά, τυρί και σάλτσα Caesar."
+    "en": "Wrapped Fiesta salad with lettuce, tomato, cheese, fiesta sauce and fries.",
+    "mk": "Завиткана Fiesta салата со марула, домат, кашкавал, Fiesta сос и помфрит.",
+    "gr": "Τυλιγμένη σαλάτα Fiesta με μαρούλι, ντομάτα, τυρί, σάλτσα Fiesta και πατάτες."
   },
   "ingredients": {
-    "en": ["Tortilla", "Fries", "Lettuce", "Mixed vegetables", "Cheese", "Caesar sauce"],
-    "mk": ["Тортила", "Помфрит", "Марула", "Мешан зеленчук", "Кашкавал", "Цезар сос"],
-    "gr": ["Τορτίγια", "Πατάτες", "Μαρούλι", "Ανάμεικτα λαχανικά", "Τυρί", "Σάλτσα Caesar"]
+    "en": ["Tortilla", "Lettuce", "Tomato", "Cheese", "Fiesta sauce", "Fries"],
+    "mk": ["Тортила", "Марула", "Домат", "Кашкавал", "Fiesta сос", "Помфрит"],
+    "gr": ["Τορτίγια", "Μαρούλι", "Ντομάτα", "Τυρί", "Σάλτσα Fiesta", "Πατάτες"]
+  },
+  "price": 200,
+  "image": "assets/exampleIMG.jpg",
+  "available": true,
+  "mealOptions": { "vegan": false, "meat": ["chicken"] }
+},
+{
+  "id": 81,
+  "category": "tortillas",
+  "name": { "en": "Veggie Burrito", "mk": "Veggie Burrito", "gr": "Veggie Burrito" },
+  "description": {
+    "en": "Burrito with lettuce, mixed vegetables, cheese, Caesar sauce and fries.",
+    "mk": "Бурито со марула, мешан зеленчук, кашкавал, Цезар сос и помфрит.",
+    "gr": "Μπουρίτο με μαρούλι, ανάμεικτα λαχανικά, τυρί, σάλτσα Caesar και πατάτες."
+  },
+  "ingredients": {
+    "en": ["Tortilla", "Lettuce", "Mixed vegetables", "Cheese", "Caesar sauce", "Fries"],
+    "mk": ["Тортила", "Марула", "Мешан зеленчук", "Кашкавал", "Цезар сос", "Помфрит"],
+    "gr": ["Τορτίγια", "Μαρούλι", "Ανάμεικτα λαχανικά", "Τυρί", "Σάλτσα Caesar", "Πατάτες"]
   },
   "price": 170,
   "image": "assets/exampleIMG.jpg",
   "available": true,
-  "mealOptions": {
-    "vegan": true,
-    "meat": []
-  }
+  "mealOptions": { "vegan": true, "meat": [] }
 },
 {
-  "id": 81,
+  "id": 82,
   "category": "sandwiches",
-  "name": {
-    "en": "Vege Sandwich",
-    "mk": "Vege Sandwich",
-    "gr": "Vege Sandwich"
-  },
+  "name": { "en": "Vege Sandwich", "mk": "Vege Sandwich", "gr": "Vege Sandwich" },
   "description": {
-    "en": "Spread, cheese, tomato, lettuce, sautéed onion. Cold sandwich.",
-    "mk": "Намаз, кашкавал, домат, марула, пржен кромид. Студен сендвич.",
-    "gr": "Άλειμμα, τυρί, ντομάτα, μαρούλι, σοταρισμένο κρεμμύδι. Κρύο σάντουιτς."
+    "en": "Spread, cheese, tomato, lettuce and sautéed onion. Cold sandwich.",
+    "mk": "Намаз, кашкавал, домат, марула и пржен кромид. Студен сендвич.",
+    "gr": "Άλειμμα, τυρί, ντομάτα, μαρούλι και σοταρισμένο κρεμμύδι. Κρύο σάντουιτς."
   },
   "ingredients": {
     "en": ["Bread", "Spread", "Cheese", "Tomato", "Lettuce", "Sautéed onion"],
@@ -2503,23 +2433,16 @@
   "price": 150,
   "image": "assets/exampleIMG.jpg",
   "available": true,
-  "mealOptions": {
-    "vegan": true,
-    "meat": []
-  }
+  "mealOptions": { "vegan": true, "meat": [] }
 },
 {
-  "id": 82,
+  "id": 83,
   "category": "sandwiches",
-  "name": {
-    "en": "Ham Sandwich",
-    "mk": "Ham Sandwich",
-    "gr": "Ham Sandwich"
-  },
+  "name": { "en": "Ham Sandwich", "mk": "Ham Sandwich", "gr": "Ham Sandwich" },
   "description": {
-    "en": "Spread, cheese, ham, lettuce, tomato, sautéed onion. Cold sandwich.",
-    "mk": "Намаз, кашкавал, шунка, марула, домат, пржен кромид. Студен сендвич.",
-    "gr": "Άλειμμα, τυρί, ζαμπόν, μαρούλι, ντομάτα, σοταρισμένο κρεμμύδι. Κρύο σάντουιτς."
+    "en": "Spread, cheese, ham, lettuce, tomato and sautéed onion. Cold sandwich.",
+    "mk": "Намаз, кашкавал, шунка, марула, домат и пржен кромид. Студен сендвич.",
+    "gr": "Άλειμμα, τυρί, ζαμπόν, μαρούλι, ντομάτα και σοταρισμένο κρεμμύδι. Κρύο σάντουιτς."
   },
   "ingredients": {
     "en": ["Bread", "Spread", "Cheese", "Ham", "Lettuce", "Tomato", "Sautéed onion"],
@@ -2529,40 +2452,28 @@
   "price": 170,
   "image": "assets/exampleIMG.jpg",
   "available": true,
-  "mealOptions": {
-    "vegan": false,
-    "meat": ["pork"]
-  }
+  "mealOptions": { "vegan": false, "meat": ["pork"] }
 },
 {
-  "id": 83,
+  "id": 84,
   "category": "sandwiches",
-  "name": {
-    "en": "Mortadela Pesto",
-    "mk": "Mortadela Pesto",
-    "gr": "Mortadela Pesto"
-  },
+  "name": { "en": "Mortadela Pesto", "mk": "Mortadela Pesto", "gr": "Mortadela Pesto" },
   "description": {
-    "en": "Spread, cheese, mortadela, pesto, lettuce, tomato. Cold sandwich.",
-    "mk": "Намаз, кашкавал, мортадела, песто, марула, домат. Студен сендвич.",
-    "gr": "Άλειμμα, τυρί, μορταδέλα, πέστο, μαρούλι, ντομάτα. Κρύο σάντουιτς."
+    "en": "Spread, cheese, mortadella, pesto, lettuce and tomato. Cold sandwich.",
+    "mk": "Намаз, кашкавал, мортадела, песто, марула и домат. Студен сендвич.",
+    "gr": "Άλειμμα, τυρί, μορταδέλα, πέστο, μαρούλι και ντομάτα. Κρύο σάντουιτς."
   },
   "ingredients": {
-    "en": ["Bread", "Spread", "Cheese", "Mortadela", "Pesto", "Lettuce", "Tomato"],
+    "en": ["Bread", "Spread", "Cheese", "Mortadella", "Pesto", "Lettuce", "Tomato"],
     "mk": ["Лебче", "Намаз", "Кашкавал", "Мортадела", "Песто", "Марула", "Домат"],
     "gr": ["Ψωμί", "Άλειμμα", "Τυρί", "Μορταδέλα", "Πέστο", "Μαρούλι", "Ντομάτα"]
   },
   "price": 170,
   "image": "assets/exampleIMG.jpg",
   "available": true,
-  "mealOptions": {
-    "vegan": false,
-    "meat": []
-  }
+  "mealOptions": { "vegan": false, "meat": ["pork"] }
 }
+
+
+
 ]
-
-
-
-
-

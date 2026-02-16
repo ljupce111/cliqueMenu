@@ -77,11 +77,18 @@ main {
   height: auto;
 }
 .sticky-container {
-  height: auto;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.phone-link .phone-number {
+  display: inline;
+   height: auto;
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #292929; /* important so content doesn’t show through */
+  background-color: #292929;
 }
 
 
@@ -585,7 +592,7 @@ main {
   position: fixed;           /* always stays on screen */
   bottom: 20px;              /* mobile default */
   right: 20px;
-  background-color: #F85618;
+  background-color: rgba(248, 86, 24, 0.9);
   color: white;
   padding: 12px 18px;
   border-radius: 50px;
@@ -593,10 +600,15 @@ main {
   text-decoration: none;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
   transition: all 0.3s ease;
+
+}
+.phone-sticky:hover{
+  background-color: rgb(248, 86, 24);
 }
 
 .store-modal {
@@ -663,6 +675,31 @@ main {
   height: 50px;
   object-fit: contain;
   filter: invert(1);
+}
+.scroll-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #F85618;
+  color: white;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+
+/* Show arrow */
+.scroll-top.show {
+  opacity: 1;
+  pointer-events: auto;
 }
 @media (min-width: 1025px) {
   .phone-sticky{
@@ -799,6 +836,28 @@ main {
     padding-left: 0;
     padding-right: 0;
   }
+
+   .phone-sticky {
+    width: 48px;              /* circle size same as padding + icon */
+    height: 48px;             /* make it a square */
+    padding: 0;               /* remove extra padding */
+    text-indent: -9999px;     /* hide the number */
+    overflow: hidden;
+    font-size: 24px;   
+ }
+   .phone-sticky::before {
+    content: "📞";             /* show only the icon */
+    text-indent: 0;            /* reset indent */
+    position: absolute;        /* absolute inside the fixed button */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* perfectly centered */
+  }
+  .scroll-top {
+    bottom: 75px;
+    right: 20px;
+  }
+
  
 }
 @media (max-width: 885px) {
