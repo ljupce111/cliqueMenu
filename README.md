@@ -22,21 +22,28 @@
 - [x] add a button so when a mobile and tablet user scrolls a little arrow or somekind of a button is added to the screen that takes the user to the top of the page so the user doesn have to scroll to get to the top
 - [x] fix: from 760px screen to 1024px the header sticks to the top instead of just the categories and filters
 - [x] add correct filters
-
-
+- [x] fix modal ui for extras and drinks so when u open the modal it doesnt say ingredients dietary its just the name and price
+- [x] add a funtion that will check if the item has any ingredients or dietary info and if it doesnt it removes the text from the module
+- [x] add fading to the bottom of the page on mobile and tablet mode(add the effect on the ingredients on mobile when they dont fit, description for mobile)
+- [x] add fading to the bottom of the page on mobile and tablet mode(add the effect on the ingredients on mobile when they dont fit, description for mobile)
+- [x] on mobile and tablet make it so when the desc is too long instead of growing it stayes inside the box and the user can scroll down
+- [x] fix bug when clique app module is opened the sites view goes to the top of the page it should stay where it is
+- [x] when a module is opened if the user scrolls the background doesnt, when a module is opened the background freezes for better ux
+- [x] make it so when the user switches categories it always brings him to the top of the page
+- [x] make it so when a user switches categories the filter is selected as all
 ## Medium / Moderate
 
-- [ ] add fading to the bottom of the page on mobile and tablet mode(add the effect on the ingredients on mobile when they dont fit, description for mobile)
+
+
+
+
+
+
+
+      
+## future fixes
 - [ ] on mobile make the phone sticker not stick at the bottom right (its in view of the footer)make it sit at the bottom right but when the footer pops up it goes up with it(it sticks at the bottom right of #menu)
 - [ ] add shading effect where the categories and filters are
-- [ ] fix modal ui for extras and drinks so when u open the modal it doesnt say ingredients dietary its just the name and price
-- [ ] on mobile and tablet make it so when the desc is too long instead of growing it stayes inside the box and the user can scroll down
-- [ ] add a funtion that will check if the item has any ingredients or dietary info and if it doesnt it removes the text from the module
-- [ ] when a module is opened if the user scrolls the background doesnt, when a module is opened the background freezes for better ux
-- [ ] make it so when the user switches categories it always brings him to the top of the page
-- [ ] make it so when a user switches categories the filter is selected as all
-- [ ] fix bug when clique app module is opened the sites view goes to the top of the page it should stay where it is
-
 
 
 
