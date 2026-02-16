@@ -18,18 +18,18 @@
 - [x] Adapt site layout and UI for mobile
 - [x] make the cards be horizontali longer when in mobile mode so it can fit more items in the full vh of the phone
 - [x] add unavailable items ui
+- [x] add all menu items in json
+- [x] add a button so when a mobile and tablet user scrolls a little arrow or somekind of a button is added to the screen that takes the user to the top of the page so the user doesn have to scroll to get to the top
+- [x] fix: from 760px screen to 1024px the header sticks to the top instead of just the categories and filters
+- [x] add correct filters
 
 
 ## Medium / Moderate
-- [ ] add all menu items in json
-- [ ] add a button so when a mobile and tablet user scrolls a little arrow or somekind of a button is added to the screen that takes the user to the top of the page so the user doesn have to scroll to get to the top
+
 - [ ] add fading to the bottom of the page on mobile and tablet mode(add the effect on the ingredients on mobile when they dont fit, description for mobile)
-- [ ] fix: from 760px screen to 1024px the header sticks to the top instead of just the categories and filters
 - [ ] on mobile make the phone sticker not stick at the bottom right (its in view of the footer)make it sit at the bottom right but when the footer pops up it goes up with it(it sticks at the bottom right of #menu)
-- [ ] on mobile make the scroll bar visible because its good ui and doesnt change the css like on desktop
 - [ ] add shading effect where the categories and filters are
 - [ ] fix modal ui for extras and drinks so when u open the modal it doesnt say ingredients dietary its just the name and price
-- [ ] add correct filters
 - [ ] on mobile and tablet make it so when the desc is too long instead of growing it stayes inside the box and the user can scroll down
 - [ ] add a funtion that will check if the item has any ingredients or dietary info and if it doesnt it removes the text from the module
 - [ ] when a module is opened if the user scrolls the background doesnt, when a module is opened the background freezes for better ux
@@ -38,10 +38,8 @@
 - [ ] fix bug when clique app module is opened the sites view goes to the top of the page it should stay where it is
 
 
-## Bigger / Complex
-- [ ] Build an admin panel for managing menu items
-- [ ] possible idea to think about make it so on mobile when the user scrolls instead of just passing the item it locks on to the item when the user ligthly scrolls
-- [ ] on mobile add arrows that the user can click and the item to the bottom or top goes to the top of the view point so the user can scroll with the harrows
+
+
 
 
 
