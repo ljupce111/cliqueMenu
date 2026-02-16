@@ -35,12 +35,14 @@
 - [ ] when a module is opened if the user scrolls the background doesnt, when a module is opened the background freezes for better ux
 - [ ] make it so when the user switches categories it always brings him to the top of the page
 - [ ] make it so when a user switches categories the filter is selected as all
+- [ ] fix bug when clique app module is opened the sites view goes to the top of the page it should stay where it is
 
 
 ## Bigger / Complex
 - [ ] Build an admin panel for managing menu items
 - [ ] possible idea to think about make it so on mobile when the user scrolls instead of just passing the item it locks on to the item when the user ligthly scrolls
 - [ ] on mobile add arrows that the user can click and the item to the bottom or top goes to the top of the view point so the user can scroll with the harrows
+
 
 
 
