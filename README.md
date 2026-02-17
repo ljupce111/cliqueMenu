@@ -7,11 +7,11 @@
 - [x] Remove either the vegan or the vegetarian filter (no need for both)
 - [x] Put the correct links in the social icons
 - [x] Add the Clique phone number to the site
-- [x] Display a message `"No items"` if there are no items in the category
+- [x] Display a message "No items" if there are no items in the category
 - [x] Add hover effects on cards/buttons
 - [x] Add an icon for the iphone store app too
-- [x] Option to make an item unavailable (show a warning on the item card that it’s unavailable)
-- [x] Add “Extras” category
+- [x] Option to make an item unavailable (show a warning on the item card that it's unavailable)
+- [x] Add "Extras" category
 - [x] Store menu items in JSON files (either in the project folder or hosted externally)
 - [x] Add multi-language support
 - [x] On mobile, when scrolling through items, only the category buttons and filter buttons stick to the top; the header does not
@@ -33,14 +33,6 @@
 - [x] make it so when a user switches categories the filter is selected as all
 ## Medium / Moderate
 
-
-
-
-
-
-
-
-      
 ## future fixes
 - [ ] on mobile make the phone sticker not stick at the bottom right (its in view of the footer)make it sit at the bottom right but when the footer pops up it goes up with it(it sticks at the bottom right of #menu)
 - [ ] add shading effect where the categories and filters are
@@ -48,7 +40,7 @@
 Menu App / SmartUI Project Overview
 Project Purpose
 
-This project is a modular, flexible menu application designed for cafés, restaurants, or similar businesses. Its goal is to allow business owners to manage menus, track orders, and customize the app’s user interface while giving the developer (admin) centralized control over features, subscriptions, and layouts. The system is designed to be scalable, customizable, and monetizable as a SaaS product.
+This project is a modular, flexible menu application designed for cafés, restaurants, or similar businesses. Its goal is to allow business owners to manage menus, track orders, and customize the app's user interface while giving the developer (admin) centralized control over features, subscriptions, and layouts. The system is designed to be scalable, customizable, and monetizable as a SaaS product.
 
 1️⃣ Item Layouts
 
@@ -125,28 +117,26 @@ Admin panel acts as the single source of truth for subscription, layouts, and ad
 💡 Summary:
 This menu app framework is designed to be flexible, scalable, and client-friendly, allowing business owners to choose features, layouts, and themes that match their brand, while giving the developer a centralized system to manage subscriptions, add-ons, and app customization. The architecture supports future expansions, additional premium layouts, and tiered subscription models for maximum monetization.
 
+7️⃣ Menu Item Addition Service Offering
 
+As an additional revenue stream, we offer a professional menu item addition service for restaurant owners who want to expand their offerings without manually managing the admin panel.
 
+**Service Overview:**
+- Owners can submit menu items (name, price, description, dietary info, ingredients, images, etc.)
+- Our team handles the complete data entry and integration into the menu system
+- Items are formatted, categorized, and integrated following the app's design standards
+- Quick turnaround with quality assurance to ensure consistency with existing menu items
 
+**Pricing Model:**
+- One-time setup fee per batch of items (e.g., $50–$200 depending on quantity)
+- Premium service for custom items with special dietary requirements or complex modifiers
+- Bulk discounts available for large menu additions
+- Can be offered as a stand-alone service or bundled with subscription tiers
 
+**Benefits:**
+- Reduces administrative burden for busy restaurant owners
+- Ensures consistent data quality and formatting across all menu items
+- Professional integration without requiring owner technical knowledge
+- Recurring revenue opportunity as clients grow and update their menus regularly
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This service bridges the gap between clients who want full control and those who prefer hands-off management, creating an additional monetization opportunity while improving customer satisfaction.
