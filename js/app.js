@@ -59,7 +59,7 @@ function createMenuCard(item) {
 
   card.innerHTML = `
     <div class="menu-card-image">
-      <img src="${item.image}" alt="${item.name.en}" class="menu-img">
+      <img src="${item.image}" alt="${item.name.en}" class="menu-img" loading="lazy">
       <div class="menu-card-dietary-overlay">
         ${item.mealOptions.vegan ? '<span class="tag vegan">Vegan</span>' : ''}
         ${item.mealOptions.meat?.map(meatType => 

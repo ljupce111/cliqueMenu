@@ -45,7 +45,7 @@
       ]
     },
     "price": 250,
-    "image": "assets/burgers/burgerOne.jpg",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=70",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -98,7 +98,7 @@
       ]
     },
     "price": 240,
-    "image": "assets/burgers/burgerTwo.jpg",
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=70",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -145,7 +145,7 @@
       ]
     },
     "price": 210,
-    "image": "assets/burgers/burgerthree.jpg",
+    "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=70",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -192,7 +192,7 @@
       ]
     },
     "price": 210,
-    "image": "assets/burgers/burgerOne.jpg",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=70",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -245,7 +245,7 @@
       ]
     },
     "price": 210,
-    "image": "assets/burgers/burgerTwo.jpg",
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=70",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -298,7 +298,7 @@
       ]
     },
     "price": 230,
-    "image": "assets/burgers/burgerthree.jpg",
+    "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=70",
     "available": true,
     "mealOptions": {
       "vegan": false,
@@ -342,7 +342,7 @@
     ]
   },
   "price": 240,
-  "image": "assets/burgers/burgerOne.jpg",
+  "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -386,7 +386,7 @@
     ]
   },
   "price": 240,
-  "image": "assets/burgers/burgerTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -442,7 +442,7 @@
     ]
   },
   "price": 230,
-  "image": "assets/burgers/burgerthree.jpg",
+  "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -498,7 +498,7 @@
     ]
   },
   "price": 230,
-  "image": "assets/burgers/burgerOne.jpg",
+  "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -548,7 +548,7 @@
     ]
   },
   "price": 210,
-  "image": "assets/burgers/burgerTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": true,
@@ -601,7 +601,7 @@
     ]
   },
   "price": 230,
-  "image": "assets/burgers/burgerThree.jpg",
+  "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -666,7 +666,7 @@
     ]
   },
   "price": 320,
-  "image": "assets/burgers/burgerOne.jpg",
+  "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -716,7 +716,7 @@
     ]
   },
   "price": 140,
-  "image": "assets/burgers/burgerTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -766,7 +766,7 @@
     ]
   },
   "price": 140,
-  "image": "assets/burgers/burgerThree.jpg",
+  "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -810,7 +810,7 @@
     ]
   },
   "price": 340,
-  "image": "assets/burgers/burgerOne.jpg",
+  "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1009,7 +1009,7 @@
     "gr": ["Τραγανές σπιτικές πατάτες", "Χοιρινό", "Μανιτάρια", "Κρεμμύδι", "Σως Ραντς", "Σως Karnivore"]
   },
   "price": 500,
-  "image": "assets/meals/mealsOne.jpg",
+  "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1035,7 +1035,7 @@
     "gr": ["Τραγανό κοτόπουλο", "BBQ Μαγεονέζα", "Ραντς", "Γλυκό & Πικάντικο"]
   },
   "price": 330,
-  "image": "assets/meals/mealsTwo.webp",
+  "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1061,7 +1061,7 @@
     "gr": ["Πατάτες τηγανιτές", "Τυρί", "Μπέικον"]
   },
   "price": 230,
-  "image": "assets/meals/mealsThree.webp",
+  "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1087,7 +1087,7 @@
     "gr": ["Τραγανές πατάτες", "Χοιρινό", "Σως Karnivore", "Ραντς"]
   },
   "price": 260,
-  "image": "assets/meals/mealsOne.jpg",
+  "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1113,7 +1113,7 @@
     "gr": ["Τραγανές πατάτες", "Κοτόπουλο", "Κάρι", "Ραντς"]
   },
   "price": 260,
-  "image": "assets/meals/mealsTwo.webp",
+  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1139,7 +1139,7 @@
     "gr": ["Τραγανές πατάτες", "Κοτόπουλο", "Κάρι", "Ραντς", "Μανιτάρια"]
   },
   "price": 500,
-  "image": "assets/meals/mealsThree.webp",
+  "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1165,7 +1165,7 @@
     "gr": ["Τραγανές πατάτες", "Κοτόπουλο", "Κάρι", "Ραντς", "Μανιτάρια"]
   },
   "price": 260,
-  "image": "assets/meals/mealsOne.jpg",
+  "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1191,7 +1191,7 @@
     "gr": ["Ρύζι", "Ψητό κοτόπουλο", "Σαλάτα", "Ανάμεικτα λαχανικά", "Limoncello dressing"]
   },
   "price": 240,
-  "image": "assets/meals/mealsTwo.webp",
+  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1217,7 +1217,7 @@
     "gr": ["Τραγανό κοτόπουλο", "Ζυμαρικά aglio e olio", "Σαλάτα", "Ανάμεικτα λαχανικά", "Limoncello dressing"]
   },
   "price": 240,
-  "image": "assets/meals/mealsThree.webp",
+  "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1243,7 +1243,7 @@
     "gr": ["Πρωτεϊνική πάστα", "Ψητό κοτόπουλο", "Σαλάτα", "Ανάμεικτα λαχανικά", "Limoncello dressing", "50γρ πρωτεΐνη"]
   },
   "price": 330,
-  "image": "assets/meals/mealsOne.jpg",
+  "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1293,7 +1293,7 @@
     ]
   },
   "price": 230,
-  "image": "assets/meals/mealsTwo.webp",
+  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1343,7 +1343,7 @@
     ]
   },
   "price": 230,
-  "image": "assets/meals/mealsThree.webp",
+  "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1369,7 +1369,7 @@
     "gr": ["5 McCrispy", "5 McClique"]
   },
   "price": 1300,
-  "image": "assets/meals/mealsOne.jpg",
+  "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1395,7 +1395,7 @@
     "gr": ["Noodles", "Ρύζι", "Λαχανικά", "Κοτόπουλο", "Σως τεριάκι", "Σουσάμι"]
   },
   "price": 240,
-  "image": "assets/noodles/noodles.jpg",
+  "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1421,7 +1421,7 @@
     "gr": ["Noodles", "Ρύζι", "Λαχανικά", "Γαρίδες", "Σως τεριάκι", "Σουσάμι"]
   },
   "price": 330,
-  "image": "assets/noodles/noodles.jpg",
+  "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1447,7 +1447,7 @@
     "gr": ["Noodles", "Ρύζι", "Σοταρισμένα λαχανικά", "Αυγό", "Σως τεριάκι", "Σουσάμι"]
   },
   "price": 220,
-  "image": "assets/noodles/noodles.jpg",
+  "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": true,
@@ -1473,7 +1473,7 @@
     "gr": ["Ρύζι με καρυκεύματα", "Κοτόπουλο", "Πράσινα μπιζέλια", "Καρότα", "Κόκκινο λάχανο", "Καλαμπόκι", "Σως Limoncello", "Σόγια σος"]
   },
   "price": 220,
-  "image": "assets/noodles/poke.jpg",
+  "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1499,7 +1499,7 @@
     "gr": ["Ρύζι με καρυκεύματα", "Ρεβίθια", "Πράσινα μπιζέλια", "Καρότο", "Κόκκινο λάχανο", "Καλαμπόκι", "Σως Limoncello", "Σόγια σος"]
   },
   "price": 220,
-  "image": "assets/noodles/poke.jpg",
+  "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": true,
@@ -1525,7 +1525,7 @@
     "gr": ["Ζυμαρικά", "Κιμάς βοδινού", "Σάλτσα ντομάτας", "Κρεμμύδι", "Σκόρδο", "Καρότο", "Σέλινο", "Ελαιόλαδο", "Αλάτι", "Πιπέρι"]
   },
   "price": 230,
-  "image": "assets/pasta/pastaOne.avif",
+  "image": "https://images.unsplash.com/photo-1611270629569-8b357cb88da9?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1551,7 +1551,7 @@
     "gr": ["Κοτόπουλο", "Τυριά"]
   },
   "price": 230,
-  "image": "assets/pasta/pastaTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1625943553852-781c6dd46faa?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1577,7 +1577,7 @@
     "gr": ["Ροζ σάλτσα", "Σάλτσα μανιταριών", "Κοτόπουλο"]
   },
   "price": 240,
-  "image": "assets/pasta/pastaThree.webp",
+  "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1603,7 +1603,7 @@
     "gr": ["Σάλτσα μανιταριών", "Σοταρισμένα μανιτάρια"]
   },
   "price": 210,
-  "image": "assets/pasta/pastaOne.avif",
+  "image": "https://images.unsplash.com/photo-1611270629569-8b357cb88da9?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1629,7 +1629,7 @@
     "gr": ["Ζυμαρικά", "Σάλτσα ντομάτας"]
   },
   "price": 210,
-  "image": "assets/pasta/pastaTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1625943553852-781c6dd46faa?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1655,7 +1655,7 @@
     "gr": ["Ροζ σάλτσα", "Παραμζάνα"]
   },
   "price": 210,
-  "image": "assets/pasta/pastaThree.webp",
+  "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1681,7 +1681,7 @@
     "gr": ["Πέστο", "Σοταρισμένα κρεμμύδια", "Παραμζάνα"]
   },
   "price": 240,
-  "image": "assets/pasta/pastaOne.avif",
+  "image": "https://images.unsplash.com/photo-1611270629569-8b357cb88da9?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1707,7 +1707,7 @@
     "gr": ["Πέννε ζυμαρικά", "Ρύζι", "Ελαιόλαδο", "Κοτόπουλο", "Παραμζάνα", "Μανιτάρια", "Σοταρισμένα κρεμμύδια"]
   },
   "price": 230,
-  "image": "assets/pasta/pastaThree.webp",
+  "image": "https://images.unsplash.com/photo-1625943553852-781c6dd46faa?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1733,7 +1733,7 @@
     "gr": ["Χειροποίητη ζύμη", "Βάση κρέμας τυριού", "Κοτόπουλο", "Μπέικον", "Τυρί", "Σως ράντς"]
   },
   "price": 350,
-  "image": "assets/pizza/pizzaOne.avif",
+  "image": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1759,7 +1759,7 @@
     "gr": ["Χειροποίητη ζύμη", "Βάση κρέμας τυριού", "Μανιτάρια", "Τυρί"]
   },
   "price": 310,
-  "image": "assets/pizza/pizzaTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1785,7 +1785,7 @@
     "gr": ["Χειροποίητη ζύμη", "Σάλτσα ντομάτας", "Τυρί"]
   },
   "price": 300,
-  "image": "assets/pizza/pizzaThree.jpeg",
+  "image": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1811,7 +1811,7 @@
     "gr": ["Χειροποίητη ζύμη", "Σάλτσα ντομάτας", "Τυρί", "Πεπερόνι"]
   },
   "price": 340,
-  "image": "assets/pizza/pizzaOne.avif",
+  "image": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1837,7 +1837,7 @@
     "gr": ["Χειροποίητη ζύμη", "Σάλτσα μπολονέζ", "Κρεμμύδι", "Τυρί"]
   },
   "price": 350,
-  "image": "assets/pizza/pizzaTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1863,7 +1863,7 @@
     "gr": ["Χειροποίητη ζύμη", "Σάλτσα ντομάτας", "Τυρί", "Ζαμπόν", "Μανιτάρια", "Αγκινάρες", "Ελιές"]
   },
   "price": 320,
-  "image": "assets/pizza/pizzaThree.jpeg",
+  "image": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1889,7 +1889,7 @@
     "gr": ["Σάλτσα ντομάτας", "Τυρί", "Ανάμεικτα λαχανικά"]
   },
   "price": 310,
-  "image": "assets/pizza/pizzaOne.avif",
+  "image": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": true,
@@ -1915,7 +1915,7 @@
     "gr": ["Σάλτσα BBQ", "Σάλτσα ντομάτας", "Κοτόπουλο", "Τυρί", "Λαχανικά"]
   },
   "price": 350,
-  "image": "assets/pizza/pizzaTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1941,7 +1941,7 @@
     "gr": ["Μαρούλι", "Κοτόπουλο", "Τυρί", "Σως ράντς", "Κρουτόν"]
   },
   "price": 230,
-  "image": "assets/salads/saladsOne.avif",
+  "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1967,7 +1967,7 @@
     "gr": ["Μαρούλι", "Ψητό κοτόπουλο", "Ντομάτα", "Κοτόπουλο", "Μαϊντανός", "Τηγανητή τορτίγια", "Πικάντικη σως ράντς"]
   },
   "price": 230,
-  "image": "assets/salads/saladsTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -1993,7 +1993,7 @@
     "gr": ["Μαρούλι", "Ανάμεικτα λαχανικά", "Ψητό κοτόπουλο", "Σπόροι κολοκύθας", "Τόνος", "Σως Limonchelo"]
   },
   "price": 250,
-  "image": "assets/salads/saladsOne.avif",
+  "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -2019,7 +2019,7 @@
     "gr": ["Πράσινο μείγμα", "Σοταρισμένα λαχανικά", "Παρμεζάνα", "Σως Verde ranch", "Προαιρετικά: Κοτόπουλο ή μπέικον"]
   },
   "price": 210,
-  "image": "assets/salads/saladsTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=70",
   "available": true,
   "mealOptions": {
     "vegan": false,
@@ -2045,7 +2045,7 @@
     "gr": ["Κρέπ", "Μπανάνα", "Κρέμα σοκολάτας", "Κομμάτια κράκερ"]
   },
   "price": 150,
-  "image": "assets/sweets/sweetsOne.jpg",
+  "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2068,7 +2068,7 @@
     "gr": ["Μπισκότο", "Βελγική σοκολάτα"]
   },
   "price": 50,
-  "image": "assets/sweets/sweetsTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2091,7 +2091,7 @@
     "gr": ["Σοκολατένιο φάντζ"]
   },
   "price": 70,
-  "image": "assets/sweets/sweetsThree.jpg",
+  "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=70",
   "available": false,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2114,7 +2114,7 @@
     "gr": ["Μάφιν βανίλιας", "Καραμέλα"]
   },
   "price": 70,
-  "image": "assets/sweets/sweetsOne.jpg",
+  "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=70",
   "available": false,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2137,7 +2137,7 @@
     "gr": ["Μάφιν βανίλιας", "Σοκολάτα"]
   },
   "price": 70,
-  "image": "assets/sweets/sweetsTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=70",
   "available": false,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2160,7 +2160,7 @@
     "gr": ["Σοκολατένιο μπράουνι", "Κρέμα φιστικιού", "Κανταΐφ"]
   },
   "price": 100,
-  "image": "assets/sweets/sweetsThree.jpg",
+  "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=70+",
   "available": false,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2183,7 +2183,7 @@
     "gr": ["Βελγική σοκολάτα", "Κρέμα φιστικιού", "Κανταΐφ"]
   },
   "price": 200,
-  "image": "assets/sweets/sweetsOne.jpg",
+  "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2198,7 +2198,7 @@
   },
   "ingredients": { "en": [], "mk": [], "gr": [] },
   "price": 150,
-  "image": "assets/extras/chillyOil.jpeg",
+  "image": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2213,7 +2213,7 @@
   },
   "ingredients": { "en": [], "mk": [], "gr": [] },
   "price": 160,
-  "image": "assets/extras/largeFries.webp",
+  "image": "https://images.unsplash.com/photo-1585109649139-366815a0d713?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2228,7 +2228,7 @@
   },
   "ingredients": { "en": [], "mk": [], "gr": [] },
   "price": 60,
-  "image": "assets/extras/mediumfries.jpg",
+  "image": "https://images.unsplash.com/photo-1585109649139-366815a0d713?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2243,7 +2243,7 @@
   },
   "ingredients": { "en": [], "mk": [], "gr": [] },
   "price": 40,
-  "image": "assets/extras/smallFries.jpg",
+  "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2262,7 +2262,7 @@
     "gr": ["BBQ Mayo", "Ranch", "Sweet & Spicy", "Spicy", "Veggie", "Shrooms", "Caesar", "Fiesta", "Burger Sauce"]
   },
   "price": 30,
-  "image": "assets/extras/sauce.jpg",
+  "image": "https://images.unsplash.com/photo-1604908812545-4c0a6e2d9bfb?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2281,7 +2281,7 @@
     "gr": ["Τορτίγια", "Αυγά", "Μπέικον", "Σοταρισμένα λαχανικά", "Ψητό κοτόπουλο", "Μαρούλι", "Κρεμώδες άλειμμα", "Πατάτες"]
   },
   "price": 190,
-  "image": "assets/tortilas/tortilasOne.jpg",
+  "image": "https://images.pexels.com/photos/580611/pexels-photo-580611.jpeg?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": ["pork", "chicken"] }
 },
@@ -2300,7 +2300,7 @@
     "gr": ["Τορτίγια", "Αυγά", "Σοταρισμένα λαχανικά", "Ψητό κοτόπουλο", "Άλειμμα", "Μαρούλι", "Τυρί", "Πατάτες"]
   },
   "price": 180,
-  "image": "assets/tortilas/tortilasTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": ["chicken"] }
 },
@@ -2319,7 +2319,7 @@
     "gr": ["Τορτίγια", "Μαρούλι", "Σάλτσα Caesar", "Κοτόπουλο", "Τυρί", "Πατάτες"]
   },
   "price": 190,
-  "image": "assets/tortilas/tortilasThree.jpg",
+  "image": "https://images.pexels.com/photos/580611/pexels-photo-580611.jpeg?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": ["chicken"] }
 },
@@ -2338,7 +2338,7 @@
     "gr": ["Τορτίγια", "Σοταρισμένα λαχανικά", "Αυγά", "Λιωμένο τυρί", "Ντομάτα"]
   },
   "price": 140,
-  "image": "assets/tortilas/tortilasOne.jpg",
+  "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": [] }
 },
@@ -2357,7 +2357,7 @@
     "gr": ["Τορτίγια", "Μαρούλι", "Ντομάτα", "Τυρί", "Σάλτσα Fiesta", "Πατάτες"]
   },
   "price": 200,
-  "image": "assets/tortilas/tortilasTwo.jpg",
+  "image": "https://images.pexels.com/photos/580611/pexels-photo-580611.jpeg?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": ["chicken"] }
 },
@@ -2376,7 +2376,7 @@
     "gr": ["Τορτίγια", "Μαρούλι", "Ανάμεικτα λαχανικά", "Τυρί", "Σάλτσα Caesar", "Πατάτες"]
   },
   "price": 170,
-  "image": "assets/tortilas/tortilasThree.jpg",
+  "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": true, "meat": [] }
 },
@@ -2395,7 +2395,7 @@
     "gr": ["Ψωμί", "Άλειμμα", "Τυρί", "Ντομάτα", "Μαρούλι", "Σοταρισμένο κρεμμύδι"]
   },
   "price": 150,
-  "image": "assets/tortilas/tortilasOne.jpg",
+  "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": true, "meat": [] }
 },
@@ -2414,7 +2414,7 @@
     "gr": ["Ψωμί", "Άλειμμα", "Τυρί", "Ζαμπόν", "Μαρούλι", "Ντομάτα", "Σοταρισμένο κρεμμύδι"]
   },
   "price": 170,
-  "image": "assets/tortilas/tortilasTwo.jpg",
+  "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": ["pork"] }
 },
@@ -2433,7 +2433,7 @@
     "gr": ["Ψωμί", "Άλειμμα", "Τυρί", "Μορταδέλα", "Πέστο", "Μαρούλι", "Ντομάτα"]
   },
   "price": 170,
-  "image": "assets/tortilas/tortilasThree.jpg",
+  "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=70",
   "available": true,
   "mealOptions": { "vegan": false, "meat": ["pork"] }
 }
